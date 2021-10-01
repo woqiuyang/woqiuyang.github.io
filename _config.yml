@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 背后的原因令人暖心
+subtitle: 'qaqaq'
+description: '笔记呀笔记呀'
 keywords:
-author: John Doe
-language: en
+author: QY
+language: zh-CN
 timezone: ''
 
 # URL
@@ -105,3 +105,7 @@ deploy:
   type: git
   repo: git@github.com:woqiuyang/woqiuyang.github.io.git
   branch: main
+
+#  双栏布局
+butterfly_article_double_row:
+  enable: false
