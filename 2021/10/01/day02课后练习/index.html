@@ -1,0 +1,337 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>day02课后练习 | 背后的原因令人暖心</title><meta name="keywords" content="Java,课后练习"><meta name="author" content="qy"><meta name="copyright" content="qy"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="基础题目:第一题 按步骤编写代码，效果如图所示：    编写步骤：   定义类 Test1  定义 main方法  定义两个byte类型变量b1,b2,并分别赋值为10和20.  定义变量b3,保存b1和b2的和,并输出.  定义两个short类型变量s1,s2,并分别赋值为1000和2000.  定义变量s3,保存s1和s2的和,并输出.  定义一个char类型变量ch1赋值为’a’,一个int">
+<meta property="og:type" content="article">
+<meta property="og:title" content="day02课后练习">
+<meta property="og:url" content="https://github.com/woqiuyang/2021/10/01/day02%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0/index.html">
+<meta property="og:site_name" content="背后的原因令人暖心">
+<meta property="og:description" content="基础题目:第一题 按步骤编写代码，效果如图所示：    编写步骤：   定义类 Test1  定义 main方法  定义两个byte类型变量b1,b2,并分别赋值为10和20.  定义变量b3,保存b1和b2的和,并输出.  定义两个short类型变量s1,s2,并分别赋值为1000和2000.  定义变量s3,保存s1和s2的和,并输出.  定义一个char类型变量ch1赋值为’a’,一个int">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg">
+<meta property="article:published_time" content="2021-10-01T05:41:34.666Z">
+<meta property="article:modified_time" content="2021-10-01T05:51:07.670Z">
+<meta property="article:author" content="qy">
+<meta property="article:tag" content="Java">
+<meta property="article:tag" content="课后练习">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg"><link rel="shortcut icon" href="https://gitee.com/woqiuyang/pic/raw/master/img/20211001141501.png"><link rel="canonical" href="https://github.com/woqiuyang/2021/10/01/day02%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/woqiuyang/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/woqiuyang/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'day02课后练习',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2021-10-01 13:51:07'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if (GLOBAL_CONFIG_SITE.isHome && /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://gitee.com/woqiuyang/pic/raw/master/img/20211001141501.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/woqiuyang/archives/"><div class="headline">文章</div><div class="length-num">2</div></a></div><div class="data-item"><a href="/woqiuyang/tags/"><div class="headline">标签</div><div class="length-num">2</div></a></div><div class="data-item"><a href="/woqiuyang/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/woqiuyang/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/woqiuyang/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/woqiuyang/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/woqiuyang/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/woqiuyang/">背后的原因令人暖心</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/woqiuyang/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/woqiuyang/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/woqiuyang/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/woqiuyang/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">day02课后练习</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-10-01T05:41:34.666Z" title="发表于 2021-10-01 13:41:34">2021-10-01</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-10-01T05:51:07.670Z" title="更新于 2021-10-01 13:51:07">2021-10-01</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/woqiuyang/categories/Java/">Java</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="day02课后练习"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div><article class="post-content" id="article-container"><h1 id="基础题目"><a href="#基础题目" class="headerlink" title="基础题目:"></a>基础题目:</h1><h2 id="第一题"><a href="#第一题" class="headerlink" title="第一题"></a>第一题</h2><ul>
+<li>按步骤编写代码，效果如图所示：</li>
+</ul>
+<p><img src="img%5C1.jpg"></p>
+<ul>
+<li>编写步骤：</li>
+</ul>
+<ol>
+<li><p>定义类 Test1</p>
+</li>
+<li><p>定义 main方法</p>
+</li>
+<li><p>定义两个byte类型变量b1,b2,并分别赋值为10和20.</p>
+</li>
+<li><p>定义变量b3,保存b1和b2的和,并输出.</p>
+</li>
+<li><p>定义两个short类型变量s1,s2,并分别赋值为1000和2000.</p>
+</li>
+<li><p>定义变量s3,保存s1和s2的和,并输出.</p>
+</li>
+<li><p>定义一个char类型变量ch1赋值为’a’,一个int类型变量i1赋值为30.</p>
+</li>
+<li><p>定义变量ch3,保存c1和i1的差,并输出.</p>
+</li>
+</ol>
+<h2 id="第二题"><a href="#第二题" class="headerlink" title="第二题"></a>第二题</h2><ul>
+<li><p>按步骤编写代码，效果如图所示：</p>
+<p><img src="img%5C2.jpg"></p>
+</li>
+</ul>
+<ul>
+<li><p>编写步骤：</p>
+<ol>
+<li>定义类 Test2</li>
+<li>定义 main方法</li>
+<li>定义 int类型变量i1 和 long类型变量l1</li>
+<li>定义变量add,保存i1和l1的和,并输出.</li>
+<li>定义 long类型变量l2 和 float类型变量f2</li>
+<li>定义变量add2,保存l2和f2的和,并输出.</li>
+<li>定义 int类型变量i3 和 double类型变量d3</li>
+<li>定义变量add3,保存i3和d3的和,并输出.</li>
+<li>定义 float类型变量f4 和 double类型变量d4</li>
+<li>定义变量add4,保存f4和d4的和,并输出.</li>
+</ol>
+</li>
+</ul>
+<h2 id="第三题"><a href="#第三题" class="headerlink" title="第三题"></a>第三题</h2><ul>
+<li><p>按步骤编写代码，效果如图所示：</p>
+<p><img src="img%5C3.jpg"></p>
+</li>
+<li><p>编写步骤：</p>
+<ol>
+<li>定义类 Test3</li>
+<li>定义 main方法</li>
+<li>定义char类型变量ch,赋值为’J’</li>
+<li>使用强制转换的方式,将变量ch转换为小写’j’,并输出</li>
+<li>定义char类型变量ch2,赋值为’a’</li>
+<li>使用+=的方式,将变量ch2转换为大写’A’,并输出</li>
+<li>定义double类型变量d3,int类型变量i3</li>
+<li>定义double变量sum3,保存d3与i3的和,输出sum3的值和sum3去除小数部分的值</li>
+<li>定义double类型变量d4,int类型变量i4</li>
+<li>定义int变量mul4,保存d4和i4乘积的整数部分,并输出</li>
+</ol>
+</li>
+</ul>
+<h2 id="第四题"><a href="#第四题" class="headerlink" title="第四题"></a>第四题</h2><ul>
+<li><p>按步骤编写代码，效果如图所示：</p>
+<p><img src="img%5C4.jpg"></p>
+</li>
+<li><p>编写步骤：</p>
+<ol>
+<li>定义类 Test4</li>
+<li>定义 main方法</li>
+<li>定义两个int类型变量a1和a2,分别赋值10,11,判断变量是否为偶数,拼接输出结果</li>
+<li>定义两个int类型变量a3和a4,分别赋值12,13,判断变量是否为奇数,拼接输出结果</li>
+</ol>
+</li>
+</ul>
+<h2 id="第五题"><a href="#第五题" class="headerlink" title="第五题"></a>第五题</h2><ul>
+<li><p>按步骤编写代码，效果如图所示：</p>
+<p><img src="img%5C5.jpg"></p>
+</li>
+</ul>
+<ul>
+<li>编写步骤：<ol>
+<li>定义类 Test5</li>
+<li>定义 main方法</li>
+<li>定义一个int类型变量a,变量b,都赋值为20.</li>
+<li>定义boolean类型变量bo , 判断++a 是否被3整除,并且a++ 是否被7整除,将结果赋值给bo</li>
+<li>输出a的值,bo的值.</li>
+<li>定义boolean类型变量bo2 , 判断b++ 是否被3整除,并且++b 是否被7整除,将结果赋值给bo2</li>
+<li>输出b的值,bo2的值.</li>
+</ol>
+</li>
+</ul>
+<h2 id="第六题"><a href="#第六题" class="headerlink" title="第六题"></a>第六题</h2><p>案例：为抵抗洪水，战士连续作战89小时，编程计算共多少天零多少小时？</p>
+<ul>
+<li><p>按步骤编写代码，效果如图所示：</p>
+<p><img src="img/6.png" alt="1557879127503"></p>
+</li>
+</ul>
+<ul>
+<li>编写步骤：<ol>
+<li>定义类Test6</li>
+<li>定义main方法</li>
+<li>定义一个int类型变量hours，赋值为89</li>
+<li>定义一个int类型变量day，用来保存89小时中天数的结果</li>
+<li>定义一个int类型变量hour，用来保存89小时中不够一天的剩余小时数的结果</li>
+<li>输出结果</li>
+</ol>
+</li>
+</ul>
+<h2 id="第七题"><a href="#第七题" class="headerlink" title="第七题"></a>第七题</h2><p>案例：今天是周2，100天以后是周几？</p>
+<ul>
+<li>按步骤编写代码，效果如图所示：</li>
+</ul>
+<p><img src="img/7.png" alt="1557879464870"></p>
+<ul>
+<li>编写步骤：<ol>
+<li>定义类Test7</li>
+<li>定义main方法</li>
+<li>定义一个int类型变量week，赋值为2</li>
+<li>修改week的值，在原值基础上加上100</li>
+<li>因为week的值加上100后超过了星期的范围，重写修改week的值</li>
+<li>输出结果，在输出结果的时候考虑特殊值，例如周日</li>
+</ol>
+</li>
+</ul>
+<h2 id="第八题"><a href="#第八题" class="headerlink" title="第八题"></a>第八题</h2><p>案例：求三个整数x,y,z中的最大值</p>
+<ul>
+<li>按步骤编写代码，效果如图所示：</li>
+</ul>
+<p><img src="img/8.png" alt="1557879847378"></p>
+<ul>
+<li><p>编写步骤：</p>
+<ol>
+<li>定义类Test8</li>
+<li>定义main方法</li>
+<li>定义三个int类型变量,x,y,z，随意赋值整数值</li>
+<li>定义一个int类型变量max，先存储x与y中的最大值（使用三元运算符）</li>
+<li>再次对max赋值，让它等于上面max与z中的最大值（使用三元运算符）</li>
+<li>输出结果</li>
+</ol>
+</li>
+</ul>
+<h2 id="第九题"><a href="#第九题" class="headerlink" title="第九题"></a>第九题</h2><p>案例：给定一个年份，判断是否是闰年</p>
+<p>闰年的判断标准是：</p>
+<p>​       1）可以被4整除，但不可被100整除</p>
+<p>​       2）可以被400整除</p>
+<ul>
+<li>按步骤编写代码，效果如图所示：</li>
+</ul>
+<p><img src="img/9.png" alt="1557902649882"></p>
+<ul>
+<li>编写步骤：<ol>
+<li>定义类Test9</li>
+<li>定义main方法</li>
+<li>定义一个int类型变量year，随意赋值一个年份</li>
+<li>定一个一个boolean类型变量，用来保存这个年份是否是闰年的结果</li>
+<li>输出结果</li>
+</ol>
+</li>
+</ul>
+<h2 id="第十题"><a href="#第十题" class="headerlink" title="第十题"></a>第十题</h2><p>案例：小明要到美国旅游，可是那里的温度是以华氏度为单位记录的。它需要一个程序将华氏温度（80度）转换为摄氏度，并以华氏度和摄氏度为单位分别显示该温度。</p>
+<p><img src="img/1557903785834.png" alt="1557903785834"></p>
+<ul>
+<li><p>按步骤编写代码，效果如图所示：</p>
+<p><img src="img/1557903814057.png" alt="1557903814057"></p>
+</li>
+<li><p>编写步骤：</p>
+<ol>
+<li>定义类Test10</li>
+<li>定义main方法</li>
+<li>定义一个double类型变量hua，存储华氏温度80</li>
+<li>定义一个double类型变量she，存储摄氏温度，根据公式求值</li>
+<li>输出结果</li>
+</ol>
+</li>
+</ul>
+<h1 id="阅读代码题："><a href="#阅读代码题：" class="headerlink" title="阅读代码题："></a>阅读代码题：</h1><h2 id="第一题-1"><a href="#第一题-1" class="headerlink" title="第一题"></a>第一题</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">如下代码的计算结果是：</span><br><span class="line"><span class="keyword">int</span> i = <span class="number">1</span>;</span><br><span class="line">i *= <span class="number">0.2</span>;  </span><br><span class="line">i++;</span><br><span class="line">System.out.println(<span class="string">&quot;i=&quot;</span> + i);</span><br></pre></td></tr></table></figure>
+
+<h2 id="第二题-1"><a href="#第二题-1" class="headerlink" title="第二题"></a>第二题</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">如下代码的运算结果是：</span><br><span class="line"><span class="keyword">int</span> i = <span class="number">2</span>;</span><br><span class="line">i *= i++;</span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> j = <span class="number">2</span>;</span><br><span class="line">j *= j+<span class="number">1</span>; </span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> k = <span class="number">2</span>;</span><br><span class="line">k *= ++k;</span><br><span class="line"></span><br><span class="line">System.out.println(<span class="string">&quot;i=&quot;</span> + i);</span><br><span class="line">System.out.println(<span class="string">&quot;j=&quot;</span> + j);</span><br><span class="line">System.out.println(<span class="string">&quot;k=&quot;</span> + k);</span><br></pre></td></tr></table></figure>
+
+<h2 id="第三题-1"><a href="#第三题-1" class="headerlink" title="第三题"></a>第三题</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">	<span class="keyword">int</span> a = <span class="number">3</span>;</span><br><span class="line">	<span class="keyword">int</span> b = <span class="number">1</span>;</span><br><span class="line">	<span class="keyword">if</span>(a = b)&#123;</span><br><span class="line">		System.out.println(<span class="string">&quot;Equal&quot;</span>);</span><br><span class="line">	&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">		System.out.println(<span class="string">&quot;Not Equal&quot;</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="第四题-1"><a href="#第四题-1" class="headerlink" title="第四题"></a>第四题</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">	<span class="keyword">int</span> a = <span class="number">8</span>, b = <span class="number">3</span>;</span><br><span class="line">	System.out.println(a&gt;&gt;&gt;b);</span><br><span class="line">	System.out.println(a&gt;&gt;&gt;b | <span class="number">2</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test1</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">/**</span></span><br><span class="line"><span class="comment">         * 第一题</span></span><br><span class="line"><span class="comment">         */</span></span><br><span class="line"><span class="comment">//        Byte b1 =10;</span></span><br><span class="line"><span class="comment">//        Byte b2 = 20;</span></span><br><span class="line"><span class="comment">//        int b3 = b1 + b2;</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;b3 = &quot; + b3);</span></span><br><span class="line"><span class="comment">//        short s1 = 1000;</span></span><br><span class="line"><span class="comment">//        short s2 = 2000;</span></span><br><span class="line"><span class="comment">//        int s3 = s1+s2;</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;s3 = &quot; + s3);</span></span><br><span class="line"><span class="comment">//        char ch1=&#x27;a&#x27;;</span></span><br><span class="line"><span class="comment">//        int i1=30;</span></span><br><span class="line"><span class="comment">//        int ch3 = ch1-i1;</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;ch3 = &quot; + ch3);</span></span><br><span class="line">        <span class="comment">/**</span></span><br><span class="line"><span class="comment">         * 第二题</span></span><br><span class="line"><span class="comment">         */</span></span><br><span class="line"><span class="comment">//        int i1 =0;</span></span><br><span class="line"><span class="comment">//        long l1 = 0;</span></span><br><span class="line"><span class="comment">//        long add = i1 + l1;</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;add = &quot; + add);</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//        long l2 = 1;</span></span><br><span class="line"><span class="comment">//        float f2 = 2.0f;</span></span><br><span class="line"><span class="comment">//        float add2 = l2 + f2;</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;add2 = &quot; + add2);</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//        int i3 = 3;</span></span><br><span class="line"><span class="comment">//        double d3 = 5.1345;</span></span><br><span class="line"><span class="comment">//        double add3 = i3 + d3;</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;add3 = &quot; + add3);</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//        float f4 = 3.14f;</span></span><br><span class="line"><span class="comment">//        double d4 = 3.1415926;</span></span><br><span class="line"><span class="comment">//        double add4 = f4 + d4;</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;add4 = &quot; + add4);</span></span><br><span class="line">        <span class="comment">/**</span></span><br><span class="line"><span class="comment">         * 第三题</span></span><br><span class="line"><span class="comment">         */</span></span><br><span class="line"><span class="comment">//        char ch = &#x27;J&#x27;;</span></span><br><span class="line"><span class="comment">//          ch = (char) (ch + 32);</span></span><br><span class="line"><span class="comment">////        char ch1 = (char)(ch +32);</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;ch = &quot; + ch);</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//        char ch2 = &#x27;a&#x27;;</span></span><br><span class="line"><span class="comment">//        ch +=32;</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;ch2 = &quot; + ch2);</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//        double d3= 20.1;</span></span><br><span class="line"><span class="comment">//        int i3 = 555;</span></span><br><span class="line"><span class="comment">//        double sum3 = d3 + i3;</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;sum3 = &quot; + sum3);</span></span><br><span class="line"><span class="comment">//        int sum4= (int)sum3;</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;sum4 = &quot; + sum4);</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//        double d4 = 5.555;</span></span><br><span class="line"><span class="comment">//        int i4 = 4396;</span></span><br><span class="line"><span class="comment">//        int mul4 = (int) (d4 * i4);</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;mul4 = &quot; + mul4);</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//        /**</span></span><br><span class="line"><span class="comment">//         * 第四题</span></span><br><span class="line"><span class="comment">//         */</span></span><br><span class="line"><span class="comment">//        int a1 = 10,a2 = 11;</span></span><br><span class="line"><span class="comment">//        String s1 =  a1%2 == 0 ? &quot;偶数&quot; : &quot;奇数&quot;;</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;10是否是偶数: 是&quot; + s1);</span></span><br><span class="line"><span class="comment">//        String s2 =  a2%2 == 0 ? &quot;偶数&quot; : &quot;奇数&quot;;</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;11是&quot; +s2);</span></span><br><span class="line"><span class="comment">//        int a3 = 12,a4 = 13;</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;12是&quot; + (a3 % 2 == 0));</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;13是&quot; + (a4 % 2 == 0));</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">/**</span></span><br><span class="line"><span class="comment">         * 第五题</span></span><br><span class="line"><span class="comment">         */</span></span><br><span class="line"><span class="comment">//        int a = 20,b = 20;</span></span><br><span class="line"><span class="comment">//        boolean bo = false;</span></span><br><span class="line"><span class="comment">//        if (++a % 3 == 0 &amp;&amp; a++ % 7 ==0)&#123;</span></span><br><span class="line"><span class="comment">//            bo = true;</span></span><br><span class="line"><span class="comment">//            System.out.println(&quot;a = &quot; + a);</span></span><br><span class="line"><span class="comment">//        &#125;else&#123;</span></span><br><span class="line"><span class="comment">//            System.out.println(&quot;bo == &quot; + false);</span></span><br><span class="line"><span class="comment">//            System.out.println(a);</span></span><br><span class="line"><span class="comment">//        &#125;</span></span><br><span class="line"><span class="comment">//        boolean bo2 = false;</span></span><br><span class="line"><span class="comment">//        if (b++ % 3 == 0 &amp;&amp; ++b % 7 == 0)&#123;</span></span><br><span class="line"><span class="comment">//            bo2 = true;</span></span><br><span class="line"><span class="comment">//            System.out.println(&quot;b = &quot; + b);</span></span><br><span class="line"><span class="comment">//        &#125;else &#123;</span></span><br><span class="line"><span class="comment">//            System.out.println(bo2);</span></span><br><span class="line"><span class="comment">//            System.out.println(&quot;b = &quot; + b);</span></span><br><span class="line"><span class="comment">//        &#125;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">//        boolean bo3 = ((++a % 3) == 0 &amp;&amp; (a++ % 7 == 0));</span></span><br><span class="line"><span class="comment">//        boolean bo4 = ((b++ % 3 ) == 0 &amp;&amp; (++b % 7 == 0));</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;bo3 = &quot; + bo3);</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;bo4 = &quot; + bo4);</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;a = &quot; + a);</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;b = &quot; + b);</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">/**</span></span><br><span class="line"><span class="comment">         * 第六题</span></span><br><span class="line"><span class="comment">         */</span></span><br><span class="line"><span class="comment">//        int hours = 89;</span></span><br><span class="line"><span class="comment">//        int day = hours / 24;</span></span><br><span class="line"><span class="comment">//        int hour= hours % 24;</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;战士连续作战&quot; + day +&quot;天&quot;+hour+&quot;小时&quot;);</span></span><br><span class="line">        <span class="comment">/**</span></span><br><span class="line"><span class="comment">         * 第七题</span></span><br><span class="line"><span class="comment">         */</span></span><br><span class="line"><span class="comment">//        int week = 2;</span></span><br><span class="line"><span class="comment">//        week += 100;</span></span><br><span class="line"><span class="comment">//        week = week % 7;</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;week = &quot; + week);</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">/**</span></span><br><span class="line"><span class="comment">         * 第八题</span></span><br><span class="line"><span class="comment">         */</span></span><br><span class="line"><span class="comment">//        int x=1,y=2,z=3;</span></span><br><span class="line"><span class="comment">//        int max = x&gt;y ? x : y;</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;max = &quot; + max);</span></span><br><span class="line"><span class="comment">//        max = max &gt; y ? max : z;</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;max = &quot; + max);</span></span><br><span class="line">        <span class="comment">/**</span></span><br><span class="line"><span class="comment">         * 第九题</span></span><br><span class="line"><span class="comment">         */</span></span><br><span class="line"><span class="comment">//        int year = 2000;</span></span><br><span class="line"><span class="comment">//        boolean bl=((year % 4 ==0 &amp;&amp; year % 100 != 0) || (year % 400 == 0));</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;bl = &quot; + bl);</span></span><br><span class="line">        <span class="comment">/**</span></span><br><span class="line"><span class="comment">         * 第十题</span></span><br><span class="line"><span class="comment">         */</span></span><br><span class="line"><span class="comment">//        double hua = 80;</span></span><br><span class="line"><span class="comment">//        double she = (hua-32)/1.8;</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;she = &quot; + she);</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">/**</span></span><br><span class="line"><span class="comment">         * 阅读代码题</span></span><br><span class="line"><span class="comment">         */</span></span><br><span class="line"><span class="comment">//        int i = 2;</span></span><br><span class="line"><span class="comment">//        i *= i++;</span></span><br><span class="line"><span class="comment">//        int j = 2;</span></span><br><span class="line"><span class="comment">//        j *= j+1;</span></span><br><span class="line"><span class="comment">//        int k = 2;</span></span><br><span class="line"><span class="comment">//        k *= ++k;</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;i=&quot; + i);</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;j=&quot; + j);</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;k=&quot; + k);</span></span><br><span class="line"><span class="comment">//        4 4 6</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">//        int i = 1;</span></span><br><span class="line"><span class="comment">//        i *= 0.2;</span></span><br><span class="line"><span class="comment">//        i++;</span></span><br><span class="line"><span class="comment">//        System.out.println(&quot;i=&quot; + i);</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//        1</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//        int a = 3;</span></span><br><span class="line"><span class="comment">//        int b = 1;</span></span><br><span class="line"><span class="comment">//        if(a = b)&#123;  //编译错误</span></span><br><span class="line"><span class="comment">//            System.out.println(&quot;Equal&quot;);</span></span><br><span class="line"><span class="comment">//        &#125;else&#123;</span></span><br><span class="line"><span class="comment">//            System.out.println(&quot;Not Equal&quot;);</span></span><br><span class="line"><span class="comment">//        &#125;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//            int a = 8, b = 3;</span></span><br><span class="line"><span class="comment">//            System.out.println(a&gt;&gt;&gt;b); //1</span></span><br><span class="line"><span class="comment">//            System.out.println(a&gt;&gt;&gt;b | 2); //3</span></span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">qy</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://github.com/woqiuyang/2021/10/01/day02%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0/">https://github.com/woqiuyang/2021/10/01/day02%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://github.com/woqiuyang" target="_blank">背后的原因令人暖心</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/woqiuyang/tags/Java/">Java</a><a class="post-meta__tags" href="/woqiuyang/tags/%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0/">课后练习</a></div><div class="post_share"><div class="social-share" data-image="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/woqiuyang/2021/10/01/hello-world/"><img class="next-cover" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="onerror=null;src='/woqiuyang/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Hello World</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://gitee.com/woqiuyang/pic/raw/master/img/20211001141501.png" onerror="this.onerror=null;this.src='/woqiuyang/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">qy</div><div class="author-info__description">笔记呀笔记呀</div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/woqiuyang/archives/"><div class="headline">文章</div><div class="length-num">2</div></a></div><div class="card-info-data-item"><a href="/woqiuyang/tags/"><div class="headline">标签</div><div class="length-num">2</div></a></div><div class="card-info-data-item"><a href="/woqiuyang/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div></div><a class="button--animated" id="card-info-btn" href="https://github.com/woqiuyang"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9F%BA%E7%A1%80%E9%A2%98%E7%9B%AE"><span class="toc-number">1.</span> <span class="toc-text">基础题目:</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E9%A2%98"><span class="toc-number">1.1.</span> <span class="toc-text">第一题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E9%A2%98"><span class="toc-number">1.2.</span> <span class="toc-text">第二题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%89%E9%A2%98"><span class="toc-number">1.3.</span> <span class="toc-text">第三题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E5%9B%9B%E9%A2%98"><span class="toc-number">1.4.</span> <span class="toc-text">第四题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%BA%94%E9%A2%98"><span class="toc-number">1.5.</span> <span class="toc-text">第五题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E5%85%AD%E9%A2%98"><span class="toc-number">1.6.</span> <span class="toc-text">第六题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%83%E9%A2%98"><span class="toc-number">1.7.</span> <span class="toc-text">第七题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E5%85%AB%E9%A2%98"><span class="toc-number">1.8.</span> <span class="toc-text">第八题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B9%9D%E9%A2%98"><span class="toc-number">1.9.</span> <span class="toc-text">第九题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E5%8D%81%E9%A2%98"><span class="toc-number">1.10.</span> <span class="toc-text">第十题</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%98%85%E8%AF%BB%E4%BB%A3%E7%A0%81%E9%A2%98%EF%BC%9A"><span class="toc-number">2.</span> <span class="toc-text">阅读代码题：</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E9%A2%98-1"><span class="toc-number">2.1.</span> <span class="toc-text">第一题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E9%A2%98-1"><span class="toc-number">2.2.</span> <span class="toc-text">第二题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%89%E9%A2%98-1"><span class="toc-number">2.3.</span> <span class="toc-text">第三题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E5%9B%9B%E9%A2%98-1"><span class="toc-number">2.4.</span> <span class="toc-text">第四题</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/woqiuyang/2021/10/01/day02%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0/" title="day02课后练习"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/woqiuyang/img/404.jpg'" alt="day02课后练习"/></a><div class="content"><a class="title" href="/woqiuyang/2021/10/01/day02%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0/" title="day02课后练习">day02课后练习</a><time datetime="2021-10-01T05:41:34.666Z" title="发表于 2021-10-01 13:41:34">2021-10-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/woqiuyang/2021/10/01/hello-world/" title="Hello World"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/woqiuyang/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/woqiuyang/2021/10/01/hello-world/" title="Hello World">Hello World</a><time datetime="2021-10-01T04:48:40.749Z" title="发表于 2021-10-01 12:48:40">2021-10-01</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By qy</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/woqiuyang/js/utils.js"></script><script src="/woqiuyang/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
