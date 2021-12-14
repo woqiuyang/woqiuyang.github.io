@@ -1,0 +1,211 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>spring考试题 | 背后的原因令人暖心</title><meta name="keywords" content="Spring,考试题"><meta name="author" content="QY"><meta name="copyright" content="QY"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="spring考试题1.谈谈对spring ioc的理解 IOC就是控制反转，指将创建对象的控制权交给Spring框架管理，并且由Spring根据配置文件去创建实例和管理各个实例之间的关系，对象与对象之间松散耦合，也利于功能的复用 DI依赖注入，既应用程序在运行时通过IOC容器动态注入对象需要的外部依赖 IOC让对象的创建不需要去new了，可以由spring自动生产，使用java的反射机制，根据配置">
+<meta property="og:type" content="article">
+<meta property="og:title" content="spring考试题">
+<meta property="og:url" content="http://example.com/2021/12/14/2112/spring%E8%80%83%E8%AF%95%E9%A2%98/index.html">
+<meta property="og:site_name" content="背后的原因令人暖心">
+<meta property="og:description" content="spring考试题1.谈谈对spring ioc的理解 IOC就是控制反转，指将创建对象的控制权交给Spring框架管理，并且由Spring根据配置文件去创建实例和管理各个实例之间的关系，对象与对象之间松散耦合，也利于功能的复用 DI依赖注入，既应用程序在运行时通过IOC容器动态注入对象需要的外部依赖 IOC让对象的创建不需要去new了，可以由spring自动生产，使用java的反射机制，根据配置">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112141911041.jpg">
+<meta property="article:published_time" content="2021-12-14T11:10:22.540Z">
+<meta property="article:modified_time" content="2021-12-14T12:47:15.859Z">
+<meta property="article:author" content="QY">
+<meta property="article:tag" content="Spring">
+<meta property="article:tag" content="考试题">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112141911041.jpg"><link rel="shortcut icon" href="/img/fav.png"><link rel="canonical" href="http://example.com/2021/12/14/2112/spring%E8%80%83%E8%AF%95%E9%A2%98/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'spring考试题',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2021-12-14 20:47:15'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if (GLOBAL_CONFIG_SITE.isHome && /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="背后的原因令人暖心" type="application/atom+xml">
+</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://gitee.com/woqiuyang/pic/raw/master/img/20211001141501.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">31</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">14</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://aidn.jp/mikutap"><i class="fa-fw fas fa-link"></i><span> 划水</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112141911041.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">背后的原因令人暖心</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://aidn.jp/mikutap"><i class="fa-fw fas fa-link"></i><span> 划水</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">spring考试题</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-12-14T11:10:22.540Z" title="发表于 2021-12-14 19:10:22">2021-12-14</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-12-14T12:47:15.859Z" title="更新于 2021-12-14 20:47:15">2021-12-14</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%80%83%E8%AF%95%E9%A2%98/">考试题</a></span></div><div class="meta-secondline"></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="spring考试题"><a href="#spring考试题" class="headerlink" title="spring考试题"></a>spring考试题</h1><h2 id="1-谈谈对spring-ioc的理解"><a href="#1-谈谈对spring-ioc的理解" class="headerlink" title="1.谈谈对spring ioc的理解"></a>1.谈谈对spring ioc的理解</h2><ol>
+<li>IOC就是控制反转，指将创建对象的控制权交给Spring框架管理，并且由Spring根据配置文件去创建实例和管理各个实例之间的关系，对象与对象之间松散耦合，也利于功能的复用</li>
+<li>DI依赖注入，既应用程序在运行时通过IOC容器动态注入对象需要的外部依赖</li>
+<li>IOC让对象的创建不需要去new了，可以由spring自动生产，使用java的反射机制，根据配置文件在运行时动态去创建对象和管理对象，并且调用对象的方法</li>
+<li>IOC的三种注入方式：构造器，setter，注解</li>
+</ol>
+<h2 id="2-谈谈对spring-aop的理解"><a href="#2-谈谈对spring-aop的理解" class="headerlink" title="2.谈谈对spring aop的理解"></a>2.谈谈对spring aop的理解</h2><ol>
+<li>aop就是面向切面编程，作为面向对象的一种补充，用于将那些与业务无关，却对多个对象产生影响的公共行为和逻辑，抽取并封装到一个可重用的模块里，这个模块被称为切面（Aspect），减少<br>代码的重复使用，降低模块之间的耦合度，提高系统的可维护性。可用于权限认证，日志，事务处理</li>
+<li>aop实现的关键在于代理模式,AOP代理主要分为静态代理和动态代理，静态代理的代表为AspectJ，动态代理则以Spring AOP为代表</li>
+<li>AspectJ是静态代理，也被称为编译时增强，AOP框架会在编译阶段生成AOP代理类，并将AspectJ织入到Java字节码中，运行的时候就是增强的aop对象</li>
+<li>Spring AOP 使用的动态代理，所谓动态代理就是说AOp框架不会去修改字节码文件，而是每次运行时在内存中临时生成一个aop对象，这个aop对象包含目标对象的全部方法，<br>并且在特定的切点做了增强处理,并且回调原对象的方法</li>
+</ol>
+<h2 id="3-spring-aop中的几个名词解释"><a href="#3-spring-aop中的几个名词解释" class="headerlink" title="3.spring aop中的几个名词解释"></a>3.spring aop中的几个名词解释</h2><ol>
+<li>连接点（Join point）：指成勋运行过程中执行的方法。在Spring AOP中，一个连接点代表一个方法的执行</li>
+<li>切面（Aspect）：被抽取出来的公共模块，可以用来横切多个对象。Aspect切面可以看成Pointcut切点和Advice通知的结合，一个切面由多个切点和通知组成</li>
+<li>切点（Pointcut）：切点用于定义要对哪些Join point 进行拦截</li>
+<li>通知（Advice）：指要在连接点上执行的动作，既增强的逻辑，比如权限校验，日志记录等，通知有各种类型：Around，Before，After，After returning，After throwing</li>
+<li>目标对象（Target）：包含连接点的对象，也对称做被通知（Advice）对象，由于Spring AOP是通过动态代理实现的，所以这个对象永远是代理对象。</li>
+<li>织入（Weaving）：通过动态代理，在目标对象（Target）的方法既连接点中执行增强通知的过程</li>
+<li>引入（Introduction）：添加额外的方法或者字段到被通知的类，Spring允许引入新的接口（以及对应的实现）到任何被代理对象，例如：使用一个引入来使bean实现IsModified接口，以便简化缓存机制。<br><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112141940431.png"></li>
+</ol>
+<h2 id="4-Spring通知有哪些类型"><a href="#4-Spring通知有哪些类型" class="headerlink" title="4. Spring通知有哪些类型"></a>4. Spring通知有哪些类型</h2><p><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112141944026.png"></p>
+<h2 id="5-spring中通知的执行顺序"><a href="#5-spring中通知的执行顺序" class="headerlink" title="5.spring中通知的执行顺序"></a>5.spring中通知的执行顺序</h2><ol>
+<li>在没有异常的的情况下</li>
+</ol>
+<p>around before advice</p>
+<p>before advice</p>
+<p>target method</p>
+<p>around after advice</p>
+<p>after advice</p>
+<p>AfterReturning advice</p>
+<ol start="2">
+<li>在有异常的情况下</li>
+</ol>
+<p>around before advice</p>
+<p>before advice</p>
+<p>target method</p>
+<p>around after advice</p>
+<p>after advice</p>
+<p>after throwing</p>
+<p>java.lang.RunTimeException</p>
+<h2 id="6-BeanFactory和ApplicationContext有什么区别"><a href="#6-BeanFactory和ApplicationContext有什么区别" class="headerlink" title="6.BeanFactory和ApplicationContext有什么区别?"></a>6.BeanFactory和ApplicationContext有什么区别?</h2><p><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112141957115.png"></p>
+<h2 id="7-spring-bean的生命周期"><a href="#7-spring-bean的生命周期" class="headerlink" title="7.spring bean的生命周期"></a>7.spring bean的生命周期</h2><p><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142043662.png"><br><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142043424.png"></p>
+<h2 id="8-spring-bean的作用域有哪些"><a href="#8-spring-bean的作用域有哪些" class="headerlink" title="8.spring bean的作用域有哪些"></a>8.spring bean的作用域有哪些</h2><p><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142044667.png"></p>
+<h2 id="9-spring框架中bean是线程安全的吗"><a href="#9-spring框架中bean是线程安全的吗" class="headerlink" title="9.spring框架中bean是线程安全的吗"></a>9.spring框架中bean是线程安全的吗</h2><p><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142045001.png"></p>
+<h2 id="10-spring自动装配模式有哪些"><a href="#10-spring自动装配模式有哪些" class="headerlink" title="10.spring自动装配模式有哪些"></a>10.spring自动装配模式有哪些</h2><p><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142045194.png"></p>
+<h2 id="11-spring事务的实现方式"><a href="#11-spring事务的实现方式" class="headerlink" title="11.spring事务的实现方式"></a>11.spring事务的实现方式</h2><p><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142046997.png"></p>
+<h2 id="12-spring框架中用到了哪些设计模式"><a href="#12-spring框架中用到了哪些设计模式" class="headerlink" title="12.spring框架中用到了哪些设计模式"></a>12.spring框架中用到了哪些设计模式</h2><p><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142046166.png"></p>
+</article><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Spring/">Spring</a><a class="post-meta__tags" href="/tags/%E8%80%83%E8%AF%95%E9%A2%98/">考试题</a></div><div class="post_share"><div class="social-share" data-image="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112141911041.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2021/12/14/2112/spring-mvc%E8%80%83%E8%AF%95%E9%A2%98/"><img class="prev-cover" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142051198.png" onerror="onerror=null;src='https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/wallhaven-0pzmrj.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">spring-mvc考试题</div></div></a></div><div class="next-post pull-right"><a href="/2021/12/13/2112/%E7%BB%99%E7%AC%94%E8%AE%B0%E6%9C%AC%E9%94%81%E4%B8%80%E9%94%81%E9%A2%91%E7%8E%87/"><img class="next-cover" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112061559866.png" onerror="onerror=null;src='https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/wallhaven-0pzmrj.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">修改注册表，把风扇愉悦送走</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2021/12/14/2112/spring-mvc%E8%80%83%E8%AF%95%E9%A2%98/" title="spring-mvc考试题"><img class="cover" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142051198.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-12-14</div><div class="title">spring-mvc考试题</div></div></a></div><div><a href="/2021/12/13/2112/1.Spring%E7%9A%84xml%E6%88%96%E9%85%8D%E7%BD%AE%E7%B1%BB/" title="spring的注解与小例子"><img class="cover" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112061834497.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-12-13</div><div class="title">spring的注解与小例子</div></div></a></div><div><a href="/2021/12/13/2112/10.spring,springmvc,springboot%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8C%BA%E5%88%AB/" title="spring,springmvc,springboot之间的区别"><img class="cover" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112082121311.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-12-13</div><div class="title">spring,springmvc,springboot之间的区别</div></div></a></div><div><a href="/2021/12/13/2112/13.spring%E4%BA%8B%E5%8A%A1%E7%9A%84%E4%BC%A0%E6%92%AD%E6%9C%BA%E5%88%B6/" title="spring事务的传播机制"><img class="cover" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112082124456.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-12-13</div><div class="title">spring事务的传播机制</div></div></a></div><div><a href="/2021/12/13/2112/14.Spring%E4%B8%AD%E5%8D%95%E4%BE%8BBean%E6%98%AF%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8%E7%9A%84%E5%90%97/" title="Spring中单例Bean是线程安全的吗"><img class="cover" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112082126562.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-12-13</div><div class="title">Spring中单例Bean是线程安全的吗</div></div></a></div><div><a href="/2021/12/13/2112/16.Spring%E4%BA%8B%E5%8A%A1%E7%9A%84%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB/" title="Spring事务的隔离级别"><img class="cover" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112091400856.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-12-13</div><div class="title">Spring事务的隔离级别</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://gitee.com/woqiuyang/pic/raw/master/img/20211001141501.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">QY</div><div class="author-info__description">笔记呀笔记呀</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">31</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">14</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://githubfast.com/woqiuyang"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">收藏从未停止，学习从未开始</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#spring%E8%80%83%E8%AF%95%E9%A2%98"><span class="toc-number">1.</span> <span class="toc-text">spring考试题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E8%B0%88%E8%B0%88%E5%AF%B9spring-ioc%E7%9A%84%E7%90%86%E8%A7%A3"><span class="toc-number">1.1.</span> <span class="toc-text">1.谈谈对spring ioc的理解</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E8%B0%88%E8%B0%88%E5%AF%B9spring-aop%E7%9A%84%E7%90%86%E8%A7%A3"><span class="toc-number">1.2.</span> <span class="toc-text">2.谈谈对spring aop的理解</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-spring-aop%E4%B8%AD%E7%9A%84%E5%87%A0%E4%B8%AA%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A"><span class="toc-number">1.3.</span> <span class="toc-text">3.spring aop中的几个名词解释</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-Spring%E9%80%9A%E7%9F%A5%E6%9C%89%E5%93%AA%E4%BA%9B%E7%B1%BB%E5%9E%8B"><span class="toc-number">1.4.</span> <span class="toc-text">4. Spring通知有哪些类型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-spring%E4%B8%AD%E9%80%9A%E7%9F%A5%E7%9A%84%E6%89%A7%E8%A1%8C%E9%A1%BA%E5%BA%8F"><span class="toc-number">1.5.</span> <span class="toc-text">5.spring中通知的执行顺序</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-BeanFactory%E5%92%8CApplicationContext%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB"><span class="toc-number">1.6.</span> <span class="toc-text">6.BeanFactory和ApplicationContext有什么区别?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-spring-bean%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F"><span class="toc-number">1.7.</span> <span class="toc-text">7.spring bean的生命周期</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8-spring-bean%E7%9A%84%E4%BD%9C%E7%94%A8%E5%9F%9F%E6%9C%89%E5%93%AA%E4%BA%9B"><span class="toc-number">1.8.</span> <span class="toc-text">8.spring bean的作用域有哪些</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#9-spring%E6%A1%86%E6%9E%B6%E4%B8%ADbean%E6%98%AF%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8%E7%9A%84%E5%90%97"><span class="toc-number">1.9.</span> <span class="toc-text">9.spring框架中bean是线程安全的吗</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#10-spring%E8%87%AA%E5%8A%A8%E8%A3%85%E9%85%8D%E6%A8%A1%E5%BC%8F%E6%9C%89%E5%93%AA%E4%BA%9B"><span class="toc-number">1.10.</span> <span class="toc-text">10.spring自动装配模式有哪些</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#11-spring%E4%BA%8B%E5%8A%A1%E7%9A%84%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F"><span class="toc-number">1.11.</span> <span class="toc-text">11.spring事务的实现方式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#12-spring%E6%A1%86%E6%9E%B6%E4%B8%AD%E7%94%A8%E5%88%B0%E4%BA%86%E5%93%AA%E4%BA%9B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F"><span class="toc-number">1.12.</span> <span class="toc-text">12.spring框架中用到了哪些设计模式</span></a></li></ol></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By QY</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script>var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',preloader.endLoading())</script><div class="js-pjax"></div><script defer="defer" id="fluttering_ribbon" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js"></script></div></body></html>

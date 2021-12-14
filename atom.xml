@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>背后的原因令人暖心</title>
+  
+  <subtitle>qaqaq</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-12-14T13:07:42.141Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>QY</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>spring-mvc考试题</title>
+    <link href="http://example.com/2021/12/14/2112/spring-mvc%E8%80%83%E8%AF%95%E9%A2%98/"/>
+    <id>http://example.com/2021/12/14/2112/spring-mvc%E8%80%83%E8%AF%95%E9%A2%98/</id>
+    <published>2021-12-14T12:50:25.251Z</published>
+    <updated>2021-12-14T13:07:42.141Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="spring-mvc考试题"><a href="#spring-mvc考试题" class="headerlink" title="spring-mvc考试题"></a>spring-mvc考试题</h1><h2 id="1-SpringMVC工作流程"><a href="#1-SpringMVC工作流程" class="headerlink" title="1.SpringMVC工作流程"></a>1.SpringMVC工作流程</h2><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142053671.png"></p><h2 id="2-SpringMVC常用注解"><a href="#2-SpringMVC常用注解" class="headerlink" title="2.SpringMVC常用注解"></a>2.SpringMVC常用注解</h2><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142054271.png"></p><h2 id="3-如何解决GET和POST的乱码问题"><a href="#3-如何解决GET和POST的乱码问题" class="headerlink" title="3.如何解决GET和POST的乱码问题"></a>3.如何解决GET和POST的乱码问题</h2><h3 id="解决POST在web-xml中配置一个过滤器，设置成utf-8"><a href="#解决POST在web-xml中配置一个过滤器，设置成utf-8" class="headerlink" title="解决POST在web.xml中配置一个过滤器，设置成utf-8"></a>解决POST在web.xml中配置一个过滤器，设置成utf-8</h3><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142055404.png"></p><h3 id="解决GET，修改Tomcat配置文件，添加编码与工程编码一样"><a href="#解决GET，修改Tomcat配置文件，添加编码与工程编码一样" class="headerlink" title="解决GET，修改Tomcat配置文件，添加编码与工程编码一样"></a>解决GET，修改Tomcat配置文件，添加编码与工程编码一样</h3><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142056299.png"></p><h2 id="4-如果在拦截请求中，我想拦截get提交方式怎么配置"><a href="#4-如果在拦截请求中，我想拦截get提交方式怎么配置" class="headerlink" title="4.如果在拦截请求中，我想拦截get提交方式怎么配置"></a>4.如果在拦截请求中，我想拦截get提交方式怎么配置</h2><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142057078.png"></p><h2 id="5-如果前端有很多参数传入，并且这些参数都是一个对象的，那么怎么快速获得这个对象"><a href="#5-如果前端有很多参数传入，并且这些参数都是一个对象的，那么怎么快速获得这个对象" class="headerlink" title="5.如果前端有很多参数传入，并且这些参数都是一个对象的，那么怎么快速获得这个对象"></a>5.如果前端有很多参数传入，并且这些参数都是一个对象的，那么怎么快速获得这个对象</h2><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142058032.png"></p><h2 id="6-如何在SpringMVC中实现RestFul"><a href="#6-如何在SpringMVC中实现RestFul" class="headerlink" title="6.如何在SpringMVC中实现RestFul"></a>6.如何在SpringMVC中实现RestFul</h2><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142059652.png"></p><h2 id="7-SpringMVC是怎么重定向和转发的"><a href="#7-SpringMVC是怎么重定向和转发的" class="headerlink" title="7.SpringMVC是怎么重定向和转发的"></a>7.SpringMVC是怎么重定向和转发的</h2><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142100767.png"></p><h2 id="8-SpringMVC怎么和Ajax互相调用"><a href="#8-SpringMVC怎么和Ajax互相调用" class="headerlink" title="8.SpringMVC怎么和Ajax互相调用"></a>8.SpringMVC怎么和Ajax互相调用</h2><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142101471.png"></p><h2 id="9-RequestMapping注解用在类上面有什么作用"><a href="#9-RequestMapping注解用在类上面有什么作用" class="headerlink" title="9.@RequestMapping注解用在类上面有什么作用"></a>9.@RequestMapping注解用在类上面有什么作用</h2><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142102815.png"></p><h2 id="10-如果想要在拦截的方法里面获得前台的参数，怎么得到"><a href="#10-如果想要在拦截的方法里面获得前台的参数，怎么得到" class="headerlink" title="10.如果想要在拦截的方法里面获得前台的参数，怎么得到"></a>10.如果想要在拦截的方法里面获得前台的参数，怎么得到</h2><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142103199.png"></p><h2 id="11-SpringMvc中函数的返回值类型有哪些"><a href="#11-SpringMvc中函数的返回值类型有哪些" class="headerlink" title="11.SpringMvc中函数的返回值类型有哪些"></a>11.SpringMvc中函数的返回值类型有哪些</h2><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142104063.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;spring-mvc考试题&quot;&gt;&lt;a href=&quot;#spring-mvc考试题&quot; class=&quot;headerlink&quot; title=&quot;spring-mvc考试题&quot;&gt;&lt;/a&gt;spring-mvc考试题&lt;/h1&gt;&lt;h2 id=&quot;1-SpringMVC工作流程&quot;&gt;&lt;a h</summary>
+      
+    
+    
+    
+    <category term="考试题" scheme="http://example.com/categories/%E8%80%83%E8%AF%95%E9%A2%98/"/>
+    
+    
+    <category term="Spring" scheme="http://example.com/tags/Spring/"/>
+    
+    <category term="考试题" scheme="http://example.com/tags/%E8%80%83%E8%AF%95%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>spring考试题</title>
+    <link href="http://example.com/2021/12/14/2112/spring%E8%80%83%E8%AF%95%E9%A2%98/"/>
+    <id>http://example.com/2021/12/14/2112/spring%E8%80%83%E8%AF%95%E9%A2%98/</id>
+    <published>2021-12-14T11:10:22.540Z</published>
+    <updated>2021-12-14T12:47:15.859Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="spring考试题"><a href="#spring考试题" class="headerlink" title="spring考试题"></a>spring考试题</h1><h2 id="1-谈谈对spring-ioc的理解"><a href="#1-谈谈对spring-ioc的理解" class="headerlink" title="1.谈谈对spring ioc的理解"></a>1.谈谈对spring ioc的理解</h2><ol><li>IOC就是控制反转，指将创建对象的控制权交给Spring框架管理，并且由Spring根据配置文件去创建实例和管理各个实例之间的关系，对象与对象之间松散耦合，也利于功能的复用</li><li>DI依赖注入，既应用程序在运行时通过IOC容器动态注入对象需要的外部依赖</li><li>IOC让对象的创建不需要去new了，可以由spring自动生产，使用java的反射机制，根据配置文件在运行时动态去创建对象和管理对象，并且调用对象的方法</li><li>IOC的三种注入方式：构造器，setter，注解</li></ol><h2 id="2-谈谈对spring-aop的理解"><a href="#2-谈谈对spring-aop的理解" class="headerlink" title="2.谈谈对spring aop的理解"></a>2.谈谈对spring aop的理解</h2><ol><li>aop就是面向切面编程，作为面向对象的一种补充，用于将那些与业务无关，却对多个对象产生影响的公共行为和逻辑，抽取并封装到一个可重用的模块里，这个模块被称为切面（Aspect），减少<br>代码的重复使用，降低模块之间的耦合度，提高系统的可维护性。可用于权限认证，日志，事务处理</li><li>aop实现的关键在于代理模式,AOP代理主要分为静态代理和动态代理，静态代理的代表为AspectJ，动态代理则以Spring AOP为代表</li><li>AspectJ是静态代理，也被称为编译时增强，AOP框架会在编译阶段生成AOP代理类，并将AspectJ织入到Java字节码中，运行的时候就是增强的aop对象</li><li>Spring AOP 使用的动态代理，所谓动态代理就是说AOp框架不会去修改字节码文件，而是每次运行时在内存中临时生成一个aop对象，这个aop对象包含目标对象的全部方法，<br>并且在特定的切点做了增强处理,并且回调原对象的方法</li></ol><h2 id="3-spring-aop中的几个名词解释"><a href="#3-spring-aop中的几个名词解释" class="headerlink" title="3.spring aop中的几个名词解释"></a>3.spring aop中的几个名词解释</h2><ol><li>连接点（Join point）：指成勋运行过程中执行的方法。在Spring AOP中，一个连接点代表一个方法的执行</li><li>切面（Aspect）：被抽取出来的公共模块，可以用来横切多个对象。Aspect切面可以看成Pointcut切点和Advice通知的结合，一个切面由多个切点和通知组成</li><li>切点（Pointcut）：切点用于定义要对哪些Join point 进行拦截</li><li>通知（Advice）：指要在连接点上执行的动作，既增强的逻辑，比如权限校验，日志记录等，通知有各种类型：Around，Before，After，After returning，After throwing</li><li>目标对象（Target）：包含连接点的对象，也对称做被通知（Advice）对象，由于Spring AOP是通过动态代理实现的，所以这个对象永远是代理对象。</li><li>织入（Weaving）：通过动态代理，在目标对象（Target）的方法既连接点中执行增强通知的过程</li><li>引入（Introduction）：添加额外的方法或者字段到被通知的类，Spring允许引入新的接口（以及对应的实现）到任何被代理对象，例如：使用一个引入来使bean实现IsModified接口，以便简化缓存机制。<br><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112141940431.png"></li></ol><h2 id="4-Spring通知有哪些类型"><a href="#4-Spring通知有哪些类型" class="headerlink" title="4. Spring通知有哪些类型"></a>4. Spring通知有哪些类型</h2><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112141944026.png"></p><h2 id="5-spring中通知的执行顺序"><a href="#5-spring中通知的执行顺序" class="headerlink" title="5.spring中通知的执行顺序"></a>5.spring中通知的执行顺序</h2><ol><li>在没有异常的的情况下</li></ol><p>around before advice</p><p>before advice</p><p>target method</p><p>around after advice</p><p>after advice</p><p>AfterReturning advice</p><ol start="2"><li>在有异常的情况下</li></ol><p>around before advice</p><p>before advice</p><p>target method</p><p>around after advice</p><p>after advice</p><p>after throwing</p><p>java.lang.RunTimeException</p><h2 id="6-BeanFactory和ApplicationContext有什么区别"><a href="#6-BeanFactory和ApplicationContext有什么区别" class="headerlink" title="6.BeanFactory和ApplicationContext有什么区别?"></a>6.BeanFactory和ApplicationContext有什么区别?</h2><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112141957115.png"></p><h2 id="7-spring-bean的生命周期"><a href="#7-spring-bean的生命周期" class="headerlink" title="7.spring bean的生命周期"></a>7.spring bean的生命周期</h2><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142043662.png"><br><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142043424.png"></p><h2 id="8-spring-bean的作用域有哪些"><a href="#8-spring-bean的作用域有哪些" class="headerlink" title="8.spring bean的作用域有哪些"></a>8.spring bean的作用域有哪些</h2><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142044667.png"></p><h2 id="9-spring框架中bean是线程安全的吗"><a href="#9-spring框架中bean是线程安全的吗" class="headerlink" title="9.spring框架中bean是线程安全的吗"></a>9.spring框架中bean是线程安全的吗</h2><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142045001.png"></p><h2 id="10-spring自动装配模式有哪些"><a href="#10-spring自动装配模式有哪些" class="headerlink" title="10.spring自动装配模式有哪些"></a>10.spring自动装配模式有哪些</h2><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142045194.png"></p><h2 id="11-spring事务的实现方式"><a href="#11-spring事务的实现方式" class="headerlink" title="11.spring事务的实现方式"></a>11.spring事务的实现方式</h2><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142046997.png"></p><h2 id="12-spring框架中用到了哪些设计模式"><a href="#12-spring框架中用到了哪些设计模式" class="headerlink" title="12.spring框架中用到了哪些设计模式"></a>12.spring框架中用到了哪些设计模式</h2><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112142046166.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;spring考试题&quot;&gt;&lt;a href=&quot;#spring考试题&quot; class=&quot;headerlink&quot; title=&quot;spring考试题&quot;&gt;&lt;/a&gt;spring考试题&lt;/h1&gt;&lt;h2 id=&quot;1-谈谈对spring-ioc的理解&quot;&gt;&lt;a href=&quot;#1-谈谈对sp</summary>
+      
+    
+    
+    
+    <category term="考试题" scheme="http://example.com/categories/%E8%80%83%E8%AF%95%E9%A2%98/"/>
+    
+    
+    <category term="Spring" scheme="http://example.com/tags/Spring/"/>
+    
+    <category term="考试题" scheme="http://example.com/tags/%E8%80%83%E8%AF%95%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>修改注册表，把风扇愉悦送走</title>
+    <link href="http://example.com/2021/12/13/2112/%E7%BB%99%E7%AC%94%E8%AE%B0%E6%9C%AC%E9%94%81%E4%B8%80%E9%94%81%E9%A2%91%E7%8E%87/"/>
+    <id>http://example.com/2021/12/13/2112/%E7%BB%99%E7%AC%94%E8%AE%B0%E6%9C%AC%E9%94%81%E4%B8%80%E9%94%81%E9%A2%91%E7%8E%87/</id>
+    <published>2021-12-13T01:03:53.310Z</published>
+    <updated>2021-12-13T01:03:53.310Z</updated>
+    
+    <content type="html"><![CDATA[<p> 工具</p><h1 id="修改注册表，锁频率"><a href="#修改注册表，锁频率" class="headerlink" title="修改注册表，锁频率"></a>修改注册表，锁频率</h1><h2 id="前情提要"><a href="#前情提要" class="headerlink" title="前情提要"></a>前情提要</h2><p><em><strong>傻仔电脑，每次导入个项目风扇就跑出来转两圈，烦死了，设置cpu上限99%都没用</strong></em></p><h2 id="修改注册表"><a href="#修改注册表" class="headerlink" title="修改注册表"></a>修改注册表</h2><ol><li>win+r<br><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112061548935.png"></li><li>找个这个文件夹</li></ol><p>计算机\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\54533251-82be-4824-96c1-47b60b740d00\75b0ae3f-bce0-45a7-8c89-c9611c25e100</p><ol start="3"><li>双击右边的Attributes将1改成2</li><li>右下角的电源右键，更改计划设置-高级电源设置<br><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112061552716.png"></li><li>锁死你，让你乱转<br><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112061554596.png"></li></ol><p><em><strong>改完立马不转了，哈哈哈哈哈哈哈（玩地平线5都不转，会不会炸掉）</strong></em></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt; 工具&lt;/p&gt;
+&lt;h1 id=&quot;修改注册表，锁频率&quot;&gt;&lt;a href=&quot;#修改注册表，锁频率&quot; class=&quot;headerlink&quot; title=&quot;修改注册表，锁频率&quot;&gt;&lt;/a&gt;修改注册表，锁频率&lt;/h1&gt;&lt;h2 id=&quot;前情提要&quot;&gt;&lt;a href=&quot;#前情提要&quot; clas</summary>
+      
+    
+    
+    
+    
+    <category term="工具" scheme="http://example.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>maven创建module弹出被忽略(Ignored)的Ignored pom.xml文件如何解决</title>
+    <link href="http://example.com/2021/12/13/2112/%E5%88%9B%E5%BB%BAmaven%EF%BC%8C%E6%96%87%E4%BB%B6%E7%81%B0%E8%89%B2%E7%9A%84%EF%BC%8C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+    <id>http://example.com/2021/12/13/2112/%E5%88%9B%E5%BB%BAmaven%EF%BC%8C%E6%96%87%E4%BB%B6%E7%81%B0%E8%89%B2%E7%9A%84%EF%BC%8C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</id>
+    <published>2021-12-13T01:03:53.309Z</published>
+    <updated>2021-12-13T01:03:53.309Z</updated>
+    
+    <content type="html"><![CDATA[<p> IDEA</p><h1 id="maven创建module弹出被忽略-Ignored-的Ignored-pom-xml文件如何解决"><a href="#maven创建module弹出被忽略-Ignored-的Ignored-pom-xml文件如何解决" class="headerlink" title="maven创建module弹出被忽略(Ignored)的Ignored pom.xml文件如何解决"></a>maven创建module弹出被忽略(Ignored)的Ignored pom.xml文件如何解决</h1><h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112061609227.png"></p><h2 id="解决方案-把勾勾取消掉"><a href="#解决方案-把勾勾取消掉" class="headerlink" title="解决方案,把勾勾取消掉"></a>解决方案,把勾勾取消掉</h2><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112061610679.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt; IDEA&lt;/p&gt;
+&lt;h1 id=&quot;maven创建module弹出被忽略-Ignored-的Ignored-pom-xml文件如何解决&quot;&gt;&lt;a href=&quot;#maven创建module弹出被忽略-Ignored-的Ignored-pom-xml文件如何解决&quot; class=&quot;</summary>
+      
+    
+    
+    
+    
+    <category term="设置" scheme="http://example.com/tags/%E8%AE%BE%E7%BD%AE/"/>
+    
+    <category term="IDEA" scheme="http://example.com/tags/IDEA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>面向对象的三大特征</title>
+    <link href="http://example.com/2021/12/13/2112/7.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%9A%84%E4%B8%89%E5%A4%A7%E7%89%B9%E5%BE%81/"/>
+    <id>http://example.com/2021/12/13/2112/7.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%9A%84%E4%B8%89%E5%A4%A7%E7%89%B9%E5%BE%81/</id>
+    <published>2021-12-13T01:03:53.306Z</published>
+    <updated>2021-12-13T01:03:53.306Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="面向对象的三大特征"><a href="#面向对象的三大特征" class="headerlink" title="面向对象的三大特征"></a>面向对象的三大特征</h1><p>面向对象三大特征<br>面向对象有哪三大特征呢，封装，继承，多态，这三大特征呢相辅相成。<br>封装叫做封装了类的内部的一些实现机制，<br>他呢可以在不影响使用的情况下改变类的内部结构 ，只有对外的的接口不变，内部的结构随便变，同时也保护了数据，<br>这个在面向对象的编程里头是一个改进，主要增加了代码的可维护性和便于修改<br>继承，如果我有一个父类，举个例子动物，那么他有一些个属性也好方法也好，如果已经封装好了的前提下，在他的子类底下，狗啊，猫啊，<br>就没有必要再重新来一遍，我可以说直接从他的父类里面继承过来就可以了，这也是复用的一个概念，所有也会增强代码的复用性<br>多态，第一要有继承，第二要有重写，第三父类要引用指向此类的对象animal a = new dog，当我调用方法的时候，叫唤，谁在叫唤，<br>是狗在叫唤，而不是他的父类在叫唤<br>封装和继承呢，增加了代码复用性，作为多态呢，增加了代码的可移植性，健壮性，灵活性</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;面向对象的三大特征&quot;&gt;&lt;a href=&quot;#面向对象的三大特征&quot; class=&quot;headerlink&quot; title=&quot;面向对象的三大特征&quot;&gt;&lt;/a&gt;面向对象的三大特征&lt;/h1&gt;&lt;p&gt;面向对象三大特征&lt;br&gt;面向对象有哪三大特征呢，封装，继承，多态，这三大特征呢相辅相</summary>
+      
+    
+    
+    
+    <category term="题目" scheme="http://example.com/categories/%E9%A2%98%E7%9B%AE/"/>
+    
+    
+    <category term="题目" scheme="http://example.com/tags/%E9%A2%98%E7%9B%AE/"/>
+    
+    <category term="JAVA" scheme="http://example.com/tags/JAVA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java的接口和抽象类有什么区别</title>
+    <link href="http://example.com/2021/12/13/2112/9.java%E7%9A%84%E6%8E%A5%E5%8F%A3%E4%B8%8E%E6%8A%BD%E8%B1%A1%E7%B1%BB%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB/"/>
+    <id>http://example.com/2021/12/13/2112/9.java%E7%9A%84%E6%8E%A5%E5%8F%A3%E4%B8%8E%E6%8A%BD%E8%B1%A1%E7%B1%BB%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB/</id>
+    <published>2021-12-13T01:03:53.306Z</published>
+    <updated>2021-12-13T01:03:53.307Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="java的接口和抽象类有什么区别"><a href="#java的接口和抽象类有什么区别" class="headerlink" title="java的接口和抽象类有什么区别"></a>java的接口和抽象类有什么区别</h1><p>什么时候用接口什么时候用抽象类<br>抽象类更重点的是表达抽象的概念，这个概念是我们平时能够接触到了的，比如说动物，植物，<br>这些在我们的脑子里面有具体的概念，包括他的具体的子类，凡是有具体概念的，就用抽象类来描述<br>什么时候用接口呢<br>借口描述的某些共同事物之间具有的共同的特征，比如说飞，他描述的是这一类东西是会飞的，飞机会飞，鸟会飞，<br>描述特征一般用接口，描述概念用抽象类</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;java的接口和抽象类有什么区别&quot;&gt;&lt;a href=&quot;#java的接口和抽象类有什么区别&quot; class=&quot;headerlink&quot; title=&quot;java的接口和抽象类有什么区别&quot;&gt;&lt;/a&gt;java的接口和抽象类有什么区别&lt;/h1&gt;&lt;p&gt;什么时候用接口什么时候用抽象</summary>
+      
+    
+    
+    
+    <category term="题目" scheme="http://example.com/categories/%E9%A2%98%E7%9B%AE/"/>
+    
+    
+    <category term="题目" scheme="http://example.com/tags/%E9%A2%98%E7%9B%AE/"/>
+    
+    <category term="JAVA" scheme="http://example.com/tags/JAVA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>高并发中的集合有哪些问题</title>
+    <link href="http://example.com/2021/12/13/2112/8.%E9%AB%98%E5%B9%B6%E5%8F%91%E4%B8%AD%E7%9A%84%E9%9B%86%E5%90%88%E6%9C%89%E5%93%AA%E4%BA%9B%E9%97%AE%E9%A2%98/"/>
+    <id>http://example.com/2021/12/13/2112/8.%E9%AB%98%E5%B9%B6%E5%8F%91%E4%B8%AD%E7%9A%84%E9%9B%86%E5%90%88%E6%9C%89%E5%93%AA%E4%BA%9B%E9%97%AE%E9%A2%98/</id>
+    <published>2021-12-13T01:03:53.306Z</published>
+    <updated>2021-12-13T01:03:53.306Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="高并发中的集合有哪些问题"><a href="#高并发中的集合有哪些问题" class="headerlink" title="高并发中的集合有哪些问题"></a>高并发中的集合有哪些问题</h1><p>在最开始的JDK版本中，他的集合类呢默认就是线程安全的，比如说Vector，Hashtable，不管你用不用做线程，<br>它里面全都是synchornize的方法，当然他的线程效率非常低<br>后来jdk的作者就发现了这一点，不是所有的情况下，或者说大多数情况下用不着多线程的，所有他做了线程非安全集合，比如ArrayList，<br>HashMap这些，线程不安全但是性能比较好。需要线程安全的时候怎么办呢，他就想到一个折中的办法，就是用Collections这个类，<br>底层使用了synchornize代码块锁，<br>第三代线程安全的集合类，他主要使用的是cas，自旋，底层大多数时候使用的是aqs<br>比如java.util.concurrent包提供的线程安全的并发集合<br>比如CopyOnWriteArrayList 这是一个 ArrayList 的线程安全的变体,往里面增加了一个数据，这个时候 CopyOnWriteArrayList 底层实现添加的原理是先 copy 出一个容器(可以简称副本)，再往新的容器里添加这个新的数据，最后把新的容器的引用地址赋值给了之前那个旧的的容器地址，但是在添加这个数据的期间，其他线程如果要去读取数据，仍然是读取到旧的容器里的数据</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;高并发中的集合有哪些问题&quot;&gt;&lt;a href=&quot;#高并发中的集合有哪些问题&quot; class=&quot;headerlink&quot; title=&quot;高并发中的集合有哪些问题&quot;&gt;&lt;/a&gt;高并发中的集合有哪些问题&lt;/h1&gt;&lt;p&gt;在最开始的JDK版本中，他的集合类呢默认就是线程安全的，比如</summary>
+      
+    
+    
+    
+    <category term="题目" scheme="http://example.com/categories/%E9%A2%98%E7%9B%AE/"/>
+    
+    
+    <category term="题目" scheme="http://example.com/tags/%E9%A2%98%E7%9B%AE/"/>
+    
+    <category term="JAVA" scheme="http://example.com/tags/JAVA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring的动态代理与AOP</title>
+    <link href="http://example.com/2021/12/13/2112/5.Spring%E7%9A%84AOP%E5%92%8C%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86/"/>
+    <id>http://example.com/2021/12/13/2112/5.Spring%E7%9A%84AOP%E5%92%8C%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86/</id>
+    <published>2021-12-13T01:03:53.305Z</published>
+    <updated>2021-12-13T01:03:53.305Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Spring的动态代理与AOP"><a href="#Spring的动态代理与AOP" class="headerlink" title="Spring的动态代理与AOP"></a>Spring的动态代理与AOP</h1><p>代码地址<br><a href="https://githubfast.com/woqiuyang/spring-02-aop">https://githubfast.com/woqiuyang/spring-02-aop</a></p><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112072128057.svg"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Spring的动态代理与AOP&quot;&gt;&lt;a href=&quot;#Spring的动态代理与AOP&quot; class=&quot;headerlink&quot; title=&quot;Spring的动态代理与AOP&quot;&gt;&lt;/a&gt;Spring的动态代理与AOP&lt;/h1&gt;&lt;p&gt;代码地址&lt;br&gt;&lt;a href=&quot;h</summary>
+      
+    
+    
+    
+    <category term="Spring" scheme="http://example.com/categories/Spring/"/>
+    
+    
+    <category term="Spring" scheme="http://example.com/tags/Spring/"/>
+    
+    <category term="JAVA" scheme="http://example.com/tags/JAVA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring声明式事务</title>
+    <link href="http://example.com/2021/12/13/2112/6.spring%E5%A3%B0%E6%98%8E%E5%BC%8F%E4%BA%8B%E5%8A%A1/"/>
+    <id>http://example.com/2021/12/13/2112/6.spring%E5%A3%B0%E6%98%8E%E5%BC%8F%E4%BA%8B%E5%8A%A1/</id>
+    <published>2021-12-13T01:03:53.305Z</published>
+    <updated>2021-12-13T01:03:53.305Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Spring声明式事务"><a href="#Spring声明式事务" class="headerlink" title="Spring声明式事务"></a>Spring声明式事务</h1><p>代码仓库<br><a href="https://githubfast.com/woqiuyang/spring-transaction">https://githubfast.com/woqiuyang/spring-transaction</a></p><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112081830777.svg"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Spring声明式事务&quot;&gt;&lt;a href=&quot;#Spring声明式事务&quot; class=&quot;headerlink&quot; title=&quot;Spring声明式事务&quot;&gt;&lt;/a&gt;Spring声明式事务&lt;/h1&gt;&lt;p&gt;代码仓库&lt;br&gt;&lt;a href=&quot;https://githubfas</summary>
+      
+    
+    
+    
+    <category term="Spring" scheme="http://example.com/categories/Spring/"/>
+    
+    
+    <category term="Spring" scheme="http://example.com/tags/Spring/"/>
+    
+    <category term="JAVA" scheme="http://example.com/tags/JAVA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ArrayList和LinkedList有什么区别</title>
+    <link href="http://example.com/2021/12/13/2112/7.ArrayList%E5%92%8CLinkedList%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
+    <id>http://example.com/2021/12/13/2112/7.ArrayList%E5%92%8CLinkedList%E7%9A%84%E5%8C%BA%E5%88%AB/</id>
+    <published>2021-12-13T01:03:53.305Z</published>
+    <updated>2021-12-13T01:03:53.305Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="ArrayList和LinkedList有什么区别"><a href="#ArrayList和LinkedList有什么区别" class="headerlink" title="ArrayList和LinkedList有什么区别"></a>ArrayList和LinkedList有什么区别</h1><p>Arraylist和Linked本身都实现了list接口，但是他底层实现的结构是不一样的<br>ArrayList底层是用数组来实现的，一个数据一个数据是挨着的，带索引的1，2,3,4,5,链表是什么呢，<br>链表是构成的数据的链条，一个数据除了存储之外，还要存储指向下一个数据的节点的指针<br>插入数据和删除数据比较多的时候，往ArrayList插入数据，后半截的数据要挪动，往链表插入数据，将原本的指针节点打断，<br>上一个节点指向插入的节点，插入的节点指向被打断的节点，所以他的数据非常快应该考虑用LinkedList，<br>如果访问的操作比较多，比如要访问第五个，直接通过索引找到第五个了，但是对于链表来说，要从头节点开始，一步一步一步才能<br>访问到第五个</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;ArrayList和LinkedList有什么区别&quot;&gt;&lt;a href=&quot;#ArrayList和LinkedList有什么区别&quot; class=&quot;headerlink&quot; title=&quot;ArrayList和LinkedList有什么区别&quot;&gt;&lt;/a&gt;ArrayList和L</summary>
+      
+    
+    
+    
+    <category term="题目" scheme="http://example.com/categories/%E9%A2%98%E7%9B%AE/"/>
+    
+    
+    <category term="题目" scheme="http://example.com/tags/%E9%A2%98%E7%9B%AE/"/>
+    
+    <category term="JAVA" scheme="http://example.com/tags/JAVA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20.spring支持的Bean作用域有哪些.md</title>
+    <link href="http://example.com/2021/12/13/2112/20.spring%E6%94%AF%E6%8C%81%E7%9A%84Bean%E4%BD%9C%E7%94%A8%E5%9F%9F%E6%9C%89%E5%93%AA%E4%BA%9B/"/>
+    <id>http://example.com/2021/12/13/2112/20.spring%E6%94%AF%E6%8C%81%E7%9A%84Bean%E4%BD%9C%E7%94%A8%E5%9F%9F%E6%9C%89%E5%93%AA%E4%BA%9B/</id>
+    <published>2021-12-13T01:03:53.304Z</published>
+    <updated>2021-12-13T01:03:53.304Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="20-spring支持的Bean作用域有哪些"><a href="#20-spring支持的Bean作用域有哪些" class="headerlink" title="20.spring支持的Bean作用域有哪些"></a>20.spring支持的Bean作用域有哪些</h1><ol><li>singleton:在创建Bean对象的时候，没有特殊指定，默认都是有且只有一个对象，当使用该属性定义Bean时，不管怎么使用，最终返回的都是同一个Bean对象</li><li>prototype:IOC每次都创建新的Bean实例，这样会出现容器中有很多相同的对象</li><li>request：他不是spring程序里面支持的，是对http产生作用的，当使用改属性定义Bean时，每次使用Http请求都会创建新的Bean对象，适用于WebApplicationContext，用的少</li><li>session:仅用于http-session，同一个session共用一个Bean实例，不同的session使用不同的Bean对象</li><li>global-session：同样使用于http-session，不同的session共用同一个Bean对象</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;20-spring支持的Bean作用域有哪些&quot;&gt;&lt;a href=&quot;#20-spring支持的Bean作用域有哪些&quot; class=&quot;headerlink&quot; title=&quot;20.spring支持的Bean作用域有哪些&quot;&gt;&lt;/a&gt;20.spring支持的Bean作用域有</summary>
+      
+    
+    
+    
+    <category term="题目" scheme="http://example.com/categories/%E9%A2%98%E7%9B%AE/"/>
+    
+    
+    <category term="Spring" scheme="http://example.com/tags/Spring/"/>
+    
+    <category term="题目" scheme="http://example.com/tags/%E9%A2%98%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>实现Spring的@Autowired 自动注入</title>
+    <link href="http://example.com/2021/12/13/2112/4.%E5%AE%9E%E7%8E%B0@Autowired/"/>
+    <id>http://example.com/2021/12/13/2112/4.%E5%AE%9E%E7%8E%B0@Autowired/</id>
+    <published>2021-12-13T01:03:53.304Z</published>
+    <updated>2021-12-13T01:03:53.304Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="实现Spring的-Autowired-自动注入"><a href="#实现Spring的-Autowired-自动注入" class="headerlink" title="实现Spring的@Autowired 自动注入"></a>实现Spring的@Autowired 自动注入</h1><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112062127079.svg"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;实现Spring的-Autowired-自动注入&quot;&gt;&lt;a href=&quot;#实现Spring的-Autowired-自动注入&quot; class=&quot;headerlink&quot; title=&quot;实现Spring的@Autowired 自动注入&quot;&gt;&lt;/a&gt;实现Spring的@Auto</summary>
+      
+    
+    
+    
+    <category term="题目" scheme="http://example.com/categories/%E9%A2%98%E7%9B%AE/"/>
+    
+    
+    <category term="Spring" scheme="http://example.com/tags/Spring/"/>
+    
+    <category term="题目" scheme="http://example.com/tags/%E9%A2%98%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>21.简述Spring Bean声明周期.md</title>
+    <link href="http://example.com/2021/12/13/2112/21.%E7%AE%80%E8%BF%B0Spring%20Bean%E5%A3%B0%E6%98%8E%E5%91%A8%E6%9C%9F/"/>
+    <id>http://example.com/2021/12/13/2112/21.%E7%AE%80%E8%BF%B0Spring%20Bean%E5%A3%B0%E6%98%8E%E5%91%A8%E6%9C%9F/</id>
+    <published>2021-12-13T01:03:53.304Z</published>
+    <updated>2021-12-13T01:03:53.304Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="21-简述Spring-Bean声明周期"><a href="#21-简述Spring-Bean声明周期" class="headerlink" title="21.简述Spring Bean声明周期"></a>21.简述Spring Bean声明周期</h1><h2 id="简述"><a href="#简述" class="headerlink" title="简述"></a>简述</h2><p>1.实例化 Instantiation<br>2.属性赋值 Populate<br>3.初始化 Initialization<br>4.销毁 Destruction</p><p>其中实例化和属性赋值分别对应构造方法和setter方法的注入，初始化和销毁是用户能自定义扩展的<br><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112091118630.png"></p><p>可以发现，分别调用三种方法：<br>1.createBeanInstance() -&gt; 实例化<br>2.populateBean() -&gt; 属性赋值<br>3.initializeBean() -&gt; 初始化<br>而销毁阶段是在容器关闭时调用的，在ConfigurableApplicationContext类的close()中</p><h2 id="详细过程"><a href="#详细过程" class="headerlink" title="详细过程"></a>详细过程</h2><p>Bean 生命周期的整个执行过程描述如下：</p><p>如果创建了一个类继承了InstantiationAwareBeanPostProcessorAdapter接口，并在配置文件中配置了该类的注入，即InstantiationAwareBeanPostProcessorAdapter和bean关联，则Spring将调用该接口的postProcessBeforeInstantiation（）方法。<br>根据配置情况调用 Bean 构造方法或工厂方法实例化 Bean。<br>如果InstantiationAwareBeanPostProcessorAdapter和bean关联，则Spring将调用该接口的postProcessAfterInstantiation（）方法。<br>利用依赖注入完成 Bean 中所有属性值的配置注入。<br>如果 Bean 实现了 BeanNameAware 接口，则 Spring 调用 Bean 的 setBeanName() 方法传入当前 Bean 的 id 值。<br>如果 Bean 实现了 BeanFactoryAware 接口，则 Spring 调用 setBeanFactory() 方法传入当前工厂实例的引用。<br>如果 Bean 实现了 ApplicationContextAware 接口，则 Spring 调用 setApplicationContext() 方法传入当前 ApplicationContext 实例的引用。<br>如果 BeanPostProcessor 和 Bean 关联，则 Spring 将调用该接口的预初始化方法 postProcessBeforeInitialzation() 对 Bean 进行加工操作，此处非常重要，Spring 的 AOP 就是利用它实现的。<br>如果 Bean 实现了 InitializingBean 接口，则 Spring 将调用 afterPropertiesSet() 方法。<br>如果在配置文件中通过 init-method 属性指定了初始化方法，则调用该初始化方法。<br>如果 BeanPostProcessor 和 Bean 关联，则 Spring 将调用该接口的初始化方法 postProcessAfterInitialization()。<br>注意：以上工作完后才能以后就可以应用这个bean了，那这个bean是一个singleton的，所以一般这种情况下我们调用同一个id的bean会是在内容地址相同的实例，当然在spring配置文件中也可以配置非Singleton。<br>如果 Bean 实现了 DisposableBean 接口，则 Spring 会调用 destory() 方法将 Spring 中的 Bean 销毁；如果在配置文件中通过 destory-method 属性指定了 Bean 的销毁方法，则 Spring 将调用该方法对 Bean 进行销毁。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;21-简述Spring-Bean声明周期&quot;&gt;&lt;a href=&quot;#21-简述Spring-Bean声明周期&quot; class=&quot;headerlink&quot; title=&quot;21.简述Spring Bean声明周期&quot;&gt;&lt;/a&gt;21.简述Spring Bean声明周期&lt;/h1&gt;&lt;</summary>
+      
+    
+    
+    
+    <category term="题目" scheme="http://example.com/categories/%E9%A2%98%E7%9B%AE/"/>
+    
+    
+    <category term="Spring" scheme="http://example.com/tags/Spring/"/>
+    
+    <category term="题目" scheme="http://example.com/tags/%E9%A2%98%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mybatis面试题</title>
+    <link href="http://example.com/2021/12/13/2112/2.Mybatis%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    <id>http://example.com/2021/12/13/2112/2.Mybatis%E9%9D%A2%E8%AF%95%E9%A2%98/</id>
+    <published>2021-12-13T01:03:53.303Z</published>
+    <updated>2021-12-13T01:03:53.303Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="mybatis面试题"><a href="#mybatis面试题" class="headerlink" title="mybatis面试题"></a>mybatis面试题</h1><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112091019316.svg"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;mybatis面试题&quot;&gt;&lt;a href=&quot;#mybatis面试题&quot; class=&quot;headerlink&quot; title=&quot;mybatis面试题&quot;&gt;&lt;/a&gt;mybatis面试题&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/</summary>
+      
+    
+    
+    
+    <category term="题目" scheme="http://example.com/categories/%E9%A2%98%E7%9B%AE/"/>
+    
+    
+    <category term="题目" scheme="http://example.com/tags/%E9%A2%98%E7%9B%AE/"/>
+    
+    <category term="mybatis" scheme="http://example.com/tags/mybatis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>19.spring是如何简化开发的.md</title>
+    <link href="http://example.com/2021/12/13/2112/19.spring%E6%98%AF%E5%A6%82%E4%BD%95%E7%AE%80%E5%8C%96%E5%BC%80%E5%8F%91%E7%9A%84/"/>
+    <id>http://example.com/2021/12/13/2112/19.spring%E6%98%AF%E5%A6%82%E4%BD%95%E7%AE%80%E5%8C%96%E5%BC%80%E5%8F%91%E7%9A%84/</id>
+    <published>2021-12-13T01:03:53.303Z</published>
+    <updated>2021-12-13T01:03:53.303Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="spring是如何简化开发的"><a href="#spring是如何简化开发的" class="headerlink" title="spring是如何简化开发的"></a>spring是如何简化开发的</h1><ol><li>pojo轻量级（将bean交给容器管理），最小侵入性编程（框架不会对核心代码产生修改）</li><li>通过依赖注入（原来我new了个对象，我是需要对对象里面的属性进行赋值操作的,通过构造方法或set，现在交给spring容器之后，他会通过di的方式完成操作）和面向接口实现松耦合（源码里面<br>提供了非常多的接口，帮助我们实现一些轻松的扩展，实现二次开发）</li><li>基于切面和惯例进行声明式编程：我们在进行事务的时候，一般情况下，我们需要自己去控制事务的开启回滚提交，使用spring后，他有声明式事务来控制事务的回滚提交</li><li>通过切面和模版减少样板式代码：比如你有100个方法，怎么在方式里面加日志，配置一个切面，告诉切面切入点就行了，减少很多重复性代码</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;spring是如何简化开发的&quot;&gt;&lt;a href=&quot;#spring是如何简化开发的&quot; class=&quot;headerlink&quot; title=&quot;spring是如何简化开发的&quot;&gt;&lt;/a&gt;spring是如何简化开发的&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;pojo轻量级（将bean交给容</summary>
+      
+    
+    
+    
+    <category term="题目" scheme="http://example.com/categories/%E9%A2%98%E7%9B%AE/"/>
+    
+    
+    <category term="Spring" scheme="http://example.com/tags/Spring/"/>
+    
+    <category term="题目" scheme="http://example.com/tags/%E9%A2%98%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring事务的隔离级别</title>
+    <link href="http://example.com/2021/12/13/2112/16.Spring%E4%BA%8B%E5%8A%A1%E7%9A%84%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB/"/>
+    <id>http://example.com/2021/12/13/2112/16.Spring%E4%BA%8B%E5%8A%A1%E7%9A%84%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB/</id>
+    <published>2021-12-13T01:03:53.302Z</published>
+    <updated>2021-12-13T01:03:53.302Z</updated>
+    
+    <content type="html"><![CDATA[<p>#Spring事务的隔离级别</p><p>spring中的事务隔离级别就是数据库的隔离级别</p><ol><li>read uncommitted 读未提交</li><li>read committed 读已提交</li><li>repeatable read 可重复读</li><li>serializable 可串行化</li></ol><p>一般情况下，会和数据库设置成一样的</p><p>如果数据库和spring都设置了隔离级别，以spring的配置为主</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;#Spring事务的隔离级别&lt;/p&gt;
+&lt;p&gt;spring中的事务隔离级别就是数据库的隔离级别&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;read uncommitted 读未提交&lt;/li&gt;
+&lt;li&gt;read committed 读已提交&lt;/li&gt;
+&lt;li&gt;repeatable read 可</summary>
+      
+    
+    
+    
+    <category term="题目" scheme="http://example.com/categories/%E9%A2%98%E7%9B%AE/"/>
+    
+    
+    <category term="Spring" scheme="http://example.com/tags/Spring/"/>
+    
+    <category term="题目" scheme="http://example.com/tags/%E9%A2%98%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring中事务的实现原理</title>
+    <link href="http://example.com/2021/12/13/2112/17.Spring%E4%B8%AD%E4%BA%8B%E5%8A%A1%E7%9A%84%E5%BA%95%E5%B1%82%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/"/>
+    <id>http://example.com/2021/12/13/2112/17.Spring%E4%B8%AD%E4%BA%8B%E5%8A%A1%E7%9A%84%E5%BA%95%E5%B1%82%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/</id>
+    <published>2021-12-13T01:03:53.302Z</published>
+    <updated>2021-12-13T01:03:53.302Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Spring中事务的实现原理"><a href="#Spring中事务的实现原理" class="headerlink" title="Spring中事务的实现原理"></a>Spring中事务的实现原理</h1><p>在spring框架中，我们一般使用的都是声明式事务(只需要加@Transactional就能实现了），但是还有编程式事务（通过自己的代码实现）</p><p>其事务操作是AOP的核心体现，当一个方法添加了@Transactional注解之后，spring会基于这个类产生一个代理对象，<br>将这个对象作为bean，使用这个代理对象，先关闭自动提交，再执行具体业务逻辑，如果执行没有错误，就提交，如果<br>出现异常，就回滚操作，可以控制对哪些异常回滚</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Spring中事务的实现原理&quot;&gt;&lt;a href=&quot;#Spring中事务的实现原理&quot; class=&quot;headerlink&quot; title=&quot;Spring中事务的实现原理&quot;&gt;&lt;/a&gt;Spring中事务的实现原理&lt;/h1&gt;&lt;p&gt;在spring框架中，我们一般使用的都是声明</summary>
+      
+    
+    
+    
+    <category term="题目" scheme="http://example.com/categories/%E9%A2%98%E7%9B%AE/"/>
+    
+    
+    <category term="Spring" scheme="http://example.com/tags/Spring/"/>
+    
+    <category term="题目" scheme="http://example.com/tags/%E9%A2%98%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>18.Spring事务什么时候会失效</title>
+    <link href="http://example.com/2021/12/13/2112/18.Spring%E4%BA%8B%E5%8A%A1%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E4%BC%9A%E5%A4%B1%E6%95%88/"/>
+    <id>http://example.com/2021/12/13/2112/18.Spring%E4%BA%8B%E5%8A%A1%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E4%BC%9A%E5%A4%B1%E6%95%88/</id>
+    <published>2021-12-13T01:03:53.302Z</published>
+    <updated>2021-12-13T01:03:53.303Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Spring事务什么时候会失效"><a href="#Spring事务什么时候会失效" class="headerlink" title="Spring事务什么时候会失效"></a>Spring事务什么时候会失效</h1><ol><li>bean对象没有被Spring容器管理</li><li>方法的访问修饰符不是public，进行事务配置的时候，必须保证事务是public</li><li>自身调用的问题，一般是a类的某个方法，调用到b类的某个方法，但是如果在a类内部进行方法调用，它是不会走AOP的代理过程的，就意味着当前的事务配置不会生效</li><li>数据源没有配置事务管理器</li><li>数据库不支持事务，现在的关系型数据库比如mysql，oracle都是支持事务的</li><li>异常被捕获，外层添加了事务处理机制，捕获了异常，导致内层正常提交</li><li>异常类型错误或者配置错误：进行事务配置，可以指定回滚的异常类型，比如只对空指针回滚，当出现其他错误，事务也会失效</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Spring事务什么时候会失效&quot;&gt;&lt;a href=&quot;#Spring事务什么时候会失效&quot; class=&quot;headerlink&quot; title=&quot;Spring事务什么时候会失效&quot;&gt;&lt;/a&gt;Spring事务什么时候会失效&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;bean对象没有被Spr</summary>
+      
+    
+    
+    
+    <category term="题目" scheme="http://example.com/categories/%E9%A2%98%E7%9B%AE/"/>
+    
+    
+    <category term="Spring" scheme="http://example.com/tags/Spring/"/>
+    
+    <category term="题目" scheme="http://example.com/tags/%E9%A2%98%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>spring事务的传播机制</title>
+    <link href="http://example.com/2021/12/13/2112/13.spring%E4%BA%8B%E5%8A%A1%E7%9A%84%E4%BC%A0%E6%92%AD%E6%9C%BA%E5%88%B6/"/>
+    <id>http://example.com/2021/12/13/2112/13.spring%E4%BA%8B%E5%8A%A1%E7%9A%84%E4%BC%A0%E6%92%AD%E6%9C%BA%E5%88%B6/</id>
+    <published>2021-12-13T01:03:53.301Z</published>
+    <updated>2021-12-13T01:03:53.301Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="spring事务的传播机制"><a href="#spring事务的传播机制" class="headerlink" title="spring事务的传播机制"></a>spring事务的传播机制</h1><p>我有一个a类，包含一个a方法，有一个b类，包含一个b方法,如果在a的方法里面调用了b类的b方法之后，b是用a的事务呢，还是b的事务，还是创建一个新的事务，还是挂起</p><p>在spring里面提供了七种传播特性：</p><ol><li>REQUIRED：默认的传播特性，a的方法调用了b方法，b里面有事务，判断a上面有没有事务，如果a有事务来执行的话，b就用a里面的事务(如果a写了作业，b不管写没写作业，都抄a的作业)</li><li>SUPPORTS:a方法里面调了b，如果a有事务，b也用a的事务执行，如果a没有事务，就用b就用非事务的方式执行,用的比较少(如果a写了作业，b就抄a的作业，如果a没写作业，b就不写作业)</li><li>MANDATORY:如果a有事务，b也按照a里面的事务执行，如果a没事务，如果a没事务，b会抛出异常错误（如果a写了作业，b就抄a的作业，如果a没写作业，就打a一顿）</li><li>REQUIRED_NEW：a如果有事务的话，先把a挂起来，b自己创建自己的事务，如果a没有事务，也创建自己的，(不管别人有没有写作业，我非要自己写作业)</li><li>NOT_SUPPORTED:a如果有事务，b会把a挂起（a写了作业，b把a的作业撕了，a没写作业，那两个人都不写作业）</li><li>NEVER：a如果有事务，b抛出异常，a如果没事务，b就以非事务方式运行，很少用到 </li><li>NESTED：表示一个嵌套事务，a里面如果有事务的话，会把a事务设置保存点，b会按照事务往下走，如果b失败，会回到a的保存点</li></ol><p>NESTED和REQUIRED的区别：</p><p>REQUIRED:由于共用的是同一个事务，无论是否catch异常，全都回滚</p><p>NESTED:被调用方b发生异常，调用方可以catch其异常，b回滚，a可以不回滚</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;spring事务的传播机制&quot;&gt;&lt;a href=&quot;#spring事务的传播机制&quot; class=&quot;headerlink&quot; title=&quot;spring事务的传播机制&quot;&gt;&lt;/a&gt;spring事务的传播机制&lt;/h1&gt;&lt;p&gt;我有一个a类，包含一个a方法，有一个b类，包含一个b</summary>
+      
+    
+    
+    
+    <category term="题目" scheme="http://example.com/categories/%E9%A2%98%E7%9B%AE/"/>
+    
+    
+    <category term="Spring" scheme="http://example.com/tags/Spring/"/>
+    
+    <category term="题目" scheme="http://example.com/tags/%E9%A2%98%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring中单例Bean是线程安全的吗</title>
+    <link href="http://example.com/2021/12/13/2112/14.Spring%E4%B8%AD%E5%8D%95%E4%BE%8BBean%E6%98%AF%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8%E7%9A%84%E5%90%97/"/>
+    <id>http://example.com/2021/12/13/2112/14.Spring%E4%B8%AD%E5%8D%95%E4%BE%8BBean%E6%98%AF%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8%E7%9A%84%E5%90%97/</id>
+    <published>2021-12-13T01:03:53.301Z</published>
+    <updated>2021-12-13T01:03:53.301Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Spring中单例Bean是线程安全的吗"><a href="#Spring中单例Bean是线程安全的吗" class="headerlink" title="Spring中单例Bean是线程安全的吗"></a>Spring中单例Bean是线程安全的吗</h1><p>bean对象默认是单例的，框架没有对bean进行多线程封装，框架情况下，Bean对象有且只有一个</p><h2 id="有状态Bean-有数据存储功能"><a href="#有状态Bean-有数据存储功能" class="headerlink" title="有状态Bean(有数据存储功能)"></a>有状态Bean(有数据存储功能)</h2><p>如果Bean是有状态的，有些Bean对象能存储数据，就需要开发人员自己来保证线程安全，一般情况下不建议把bean设置成有状态的</p><p>最简单的解决方式是把Bean的作用域由singleton改成prototype(原型的)，这样每次请求bean对象都创建一个新的bean对象来保证线程安全</p><h2 id="无状态Bean-不会存储数据"><a href="#无状态Bean-不会存储数据" class="headerlink" title="无状态Bean(不会存储数据)"></a>无状态Bean(不会存储数据)</h2><p>我们的Controller，Service，Dao本身并不是线程安全的，只是调用里面的方法，而多线程调用一个实例方法，是在内存中<br>复制遍历，这是在自己的线程工作内存，是最安全的</p><p>因此我们不要在Bean中声明任何有状态的实例变量或类变量，如果必须要这么做，推荐使用ThreadLocal把变量变成线程私有，<br>每一个变量只归属于当前线程，他们之间彼此并不是共享的，避免在修改对象的时候，改的是同一个对象里面的数据值</p><p>如果bean的实例变量和类变量在多个线程里面共享，那么只能使用synchronized，lock，cas等线程同步方法,如果加了这些锁操作，<br>并不可少的使性能降低</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Spring中单例Bean是线程安全的吗&quot;&gt;&lt;a href=&quot;#Spring中单例Bean是线程安全的吗&quot; class=&quot;headerlink&quot; title=&quot;Spring中单例Bean是线程安全的吗&quot;&gt;&lt;/a&gt;Spring中单例Bean是线程安全的吗&lt;/h1&gt;&lt;</summary>
+      
+    
+    
+    
+    <category term="题目" scheme="http://example.com/categories/%E9%A2%98%E7%9B%AE/"/>
+    
+    
+    <category term="Spring" scheme="http://example.com/tags/Spring/"/>
+    
+    <category term="题目" scheme="http://example.com/tags/%E9%A2%98%E7%9B%AE/"/>
+    
+  </entry>
+  
+</feed>
