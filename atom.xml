@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-12-14T13:07:42.141Z</updated>
+  <updated>2021-12-27T10:51:35.840Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,54 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux下安装Redis</title>
+    <link href="http://example.com/2021/12/27/2112/Linux%E4%B8%8B%E5%AE%89%E8%A3%85Redis/"/>
+    <id>http://example.com/2021/12/27/2112/Linux%E4%B8%8B%E5%AE%89%E8%A3%85Redis/</id>
+    <published>2021-12-27T10:47:41.415Z</published>
+    <updated>2021-12-27T10:51:35.840Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Linux下安装Redis"><a href="#Linux下安装Redis" class="headerlink" title="Linux下安装Redis"></a>Linux下安装Redis</h1><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112271851325.pdf"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Linux下安装Redis&quot;&gt;&lt;a href=&quot;#Linux下安装Redis&quot; class=&quot;headerlink&quot; title=&quot;Linux下安装Redis&quot;&gt;&lt;/a&gt;Linux下安装Redis&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://cdn.jsde</summary>
+      
+    
+    
+    
+    
+    <category term="linux" scheme="http://example.com/tags/linux/"/>
+    
+    <category term="工具" scheme="http://example.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux下jdk，mysql，tomcat的安装</title>
+    <link href="http://example.com/2021/12/27/2112/Linux%E4%B8%8Bjdk%EF%BC%8Cmysql%EF%BC%8Ctomcat%E7%9A%84%E5%AE%89%E8%A3%85/"/>
+    <id>http://example.com/2021/12/27/2112/Linux%E4%B8%8Bjdk%EF%BC%8Cmysql%EF%BC%8Ctomcat%E7%9A%84%E5%AE%89%E8%A3%85/</id>
+    <published>2021-12-27T10:34:58.660Z</published>
+    <updated>2021-12-27T10:45:03.369Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Linux下jdk，mysql，tomcat的安装"><a href="#Linux下jdk，mysql，tomcat的安装" class="headerlink" title="Linux下jdk，mysql，tomcat的安装"></a>Linux下jdk，mysql，tomcat的安装</h1><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112271843837.pdf"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Linux下jdk，mysql，tomcat的安装&quot;&gt;&lt;a href=&quot;#Linux下jdk，mysql，tomcat的安装&quot; class=&quot;headerlink&quot; title=&quot;Linux下jdk，mysql，tomcat的安装&quot;&gt;&lt;/a&gt;Linux下jdk，m</summary>
+      
+    
+    
+    
+    
+    <category term="linux" scheme="http://example.com/tags/linux/"/>
+    
+    <category term="工具" scheme="http://example.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
   
   <entry>
     <title>spring-mvc考试题</title>
@@ -351,32 +399,6 @@
   </entry>
   
   <entry>
-    <title>mybatis面试题</title>
-    <link href="http://example.com/2021/12/13/2112/2.Mybatis%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
-    <id>http://example.com/2021/12/13/2112/2.Mybatis%E9%9D%A2%E8%AF%95%E9%A2%98/</id>
-    <published>2021-12-13T01:03:53.303Z</published>
-    <updated>2021-12-13T01:03:53.303Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="mybatis面试题"><a href="#mybatis面试题" class="headerlink" title="mybatis面试题"></a>mybatis面试题</h1><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112091019316.svg"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;mybatis面试题&quot;&gt;&lt;a href=&quot;#mybatis面试题&quot; class=&quot;headerlink&quot; title=&quot;mybatis面试题&quot;&gt;&lt;/a&gt;mybatis面试题&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/</summary>
-      
-    
-    
-    
-    <category term="题目" scheme="http://example.com/categories/%E9%A2%98%E7%9B%AE/"/>
-    
-    
-    <category term="题目" scheme="http://example.com/tags/%E9%A2%98%E7%9B%AE/"/>
-    
-    <category term="mybatis" scheme="http://example.com/tags/mybatis/"/>
-    
-  </entry>
-  
-  <entry>
     <title>19.spring是如何简化开发的.md</title>
     <link href="http://example.com/2021/12/13/2112/19.spring%E6%98%AF%E5%A6%82%E4%BD%95%E7%AE%80%E5%8C%96%E5%BC%80%E5%8F%91%E7%9A%84/"/>
     <id>http://example.com/2021/12/13/2112/19.spring%E6%98%AF%E5%A6%82%E4%BD%95%E7%AE%80%E5%8C%96%E5%BC%80%E5%8F%91%E7%9A%84/</id>
@@ -404,6 +426,32 @@
   </entry>
   
   <entry>
+    <title>mybatis面试题</title>
+    <link href="http://example.com/2021/12/13/2112/2.Mybatis%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    <id>http://example.com/2021/12/13/2112/2.Mybatis%E9%9D%A2%E8%AF%95%E9%A2%98/</id>
+    <published>2021-12-13T01:03:53.303Z</published>
+    <updated>2021-12-13T01:03:53.303Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="mybatis面试题"><a href="#mybatis面试题" class="headerlink" title="mybatis面试题"></a>mybatis面试题</h1><p><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/202112091019316.svg"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;mybatis面试题&quot;&gt;&lt;a href=&quot;#mybatis面试题&quot; class=&quot;headerlink&quot; title=&quot;mybatis面试题&quot;&gt;&lt;/a&gt;mybatis面试题&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/</summary>
+      
+    
+    
+    
+    <category term="题目" scheme="http://example.com/categories/%E9%A2%98%E7%9B%AE/"/>
+    
+    
+    <category term="题目" scheme="http://example.com/tags/%E9%A2%98%E7%9B%AE/"/>
+    
+    <category term="mybatis" scheme="http://example.com/tags/mybatis/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Spring事务的隔离级别</title>
     <link href="http://example.com/2021/12/13/2112/16.Spring%E4%BA%8B%E5%8A%A1%E7%9A%84%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB/"/>
     <id>http://example.com/2021/12/13/2112/16.Spring%E4%BA%8B%E5%8A%A1%E7%9A%84%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB/</id>
@@ -421,32 +469,6 @@
 &lt;li&gt;read uncommitted 读未提交&lt;/li&gt;
 &lt;li&gt;read committed 读已提交&lt;/li&gt;
 &lt;li&gt;repeatable read 可</summary>
-      
-    
-    
-    
-    <category term="题目" scheme="http://example.com/categories/%E9%A2%98%E7%9B%AE/"/>
-    
-    
-    <category term="Spring" scheme="http://example.com/tags/Spring/"/>
-    
-    <category term="题目" scheme="http://example.com/tags/%E9%A2%98%E7%9B%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Spring中事务的实现原理</title>
-    <link href="http://example.com/2021/12/13/2112/17.Spring%E4%B8%AD%E4%BA%8B%E5%8A%A1%E7%9A%84%E5%BA%95%E5%B1%82%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/"/>
-    <id>http://example.com/2021/12/13/2112/17.Spring%E4%B8%AD%E4%BA%8B%E5%8A%A1%E7%9A%84%E5%BA%95%E5%B1%82%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/</id>
-    <published>2021-12-13T01:03:53.302Z</published>
-    <updated>2021-12-13T01:03:53.302Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Spring中事务的实现原理"><a href="#Spring中事务的实现原理" class="headerlink" title="Spring中事务的实现原理"></a>Spring中事务的实现原理</h1><p>在spring框架中，我们一般使用的都是声明式事务(只需要加@Transactional就能实现了），但是还有编程式事务（通过自己的代码实现）</p><p>其事务操作是AOP的核心体现，当一个方法添加了@Transactional注解之后，spring会基于这个类产生一个代理对象，<br>将这个对象作为bean，使用这个代理对象，先关闭自动提交，再执行具体业务逻辑，如果执行没有错误，就提交，如果<br>出现异常，就回滚操作，可以控制对哪些异常回滚</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;Spring中事务的实现原理&quot;&gt;&lt;a href=&quot;#Spring中事务的实现原理&quot; class=&quot;headerlink&quot; title=&quot;Spring中事务的实现原理&quot;&gt;&lt;/a&gt;Spring中事务的实现原理&lt;/h1&gt;&lt;p&gt;在spring框架中，我们一般使用的都是声明</summary>
       
     
     
@@ -488,44 +510,18 @@
   </entry>
   
   <entry>
-    <title>spring事务的传播机制</title>
-    <link href="http://example.com/2021/12/13/2112/13.spring%E4%BA%8B%E5%8A%A1%E7%9A%84%E4%BC%A0%E6%92%AD%E6%9C%BA%E5%88%B6/"/>
-    <id>http://example.com/2021/12/13/2112/13.spring%E4%BA%8B%E5%8A%A1%E7%9A%84%E4%BC%A0%E6%92%AD%E6%9C%BA%E5%88%B6/</id>
-    <published>2021-12-13T01:03:53.301Z</published>
-    <updated>2021-12-13T01:03:53.301Z</updated>
+    <title>Spring中事务的实现原理</title>
+    <link href="http://example.com/2021/12/13/2112/17.Spring%E4%B8%AD%E4%BA%8B%E5%8A%A1%E7%9A%84%E5%BA%95%E5%B1%82%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/"/>
+    <id>http://example.com/2021/12/13/2112/17.Spring%E4%B8%AD%E4%BA%8B%E5%8A%A1%E7%9A%84%E5%BA%95%E5%B1%82%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/</id>
+    <published>2021-12-13T01:03:53.302Z</published>
+    <updated>2021-12-13T01:03:53.302Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="spring事务的传播机制"><a href="#spring事务的传播机制" class="headerlink" title="spring事务的传播机制"></a>spring事务的传播机制</h1><p>我有一个a类，包含一个a方法，有一个b类，包含一个b方法,如果在a的方法里面调用了b类的b方法之后，b是用a的事务呢，还是b的事务，还是创建一个新的事务，还是挂起</p><p>在spring里面提供了七种传播特性：</p><ol><li>REQUIRED：默认的传播特性，a的方法调用了b方法，b里面有事务，判断a上面有没有事务，如果a有事务来执行的话，b就用a里面的事务(如果a写了作业，b不管写没写作业，都抄a的作业)</li><li>SUPPORTS:a方法里面调了b，如果a有事务，b也用a的事务执行，如果a没有事务，就用b就用非事务的方式执行,用的比较少(如果a写了作业，b就抄a的作业，如果a没写作业，b就不写作业)</li><li>MANDATORY:如果a有事务，b也按照a里面的事务执行，如果a没事务，如果a没事务，b会抛出异常错误（如果a写了作业，b就抄a的作业，如果a没写作业，就打a一顿）</li><li>REQUIRED_NEW：a如果有事务的话，先把a挂起来，b自己创建自己的事务，如果a没有事务，也创建自己的，(不管别人有没有写作业，我非要自己写作业)</li><li>NOT_SUPPORTED:a如果有事务，b会把a挂起（a写了作业，b把a的作业撕了，a没写作业，那两个人都不写作业）</li><li>NEVER：a如果有事务，b抛出异常，a如果没事务，b就以非事务方式运行，很少用到 </li><li>NESTED：表示一个嵌套事务，a里面如果有事务的话，会把a事务设置保存点，b会按照事务往下走，如果b失败，会回到a的保存点</li></ol><p>NESTED和REQUIRED的区别：</p><p>REQUIRED:由于共用的是同一个事务，无论是否catch异常，全都回滚</p><p>NESTED:被调用方b发生异常，调用方可以catch其异常，b回滚，a可以不回滚</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;spring事务的传播机制&quot;&gt;&lt;a href=&quot;#spring事务的传播机制&quot; class=&quot;headerlink&quot; title=&quot;spring事务的传播机制&quot;&gt;&lt;/a&gt;spring事务的传播机制&lt;/h1&gt;&lt;p&gt;我有一个a类，包含一个a方法，有一个b类，包含一个b</summary>
-      
-    
-    
-    
-    <category term="题目" scheme="http://example.com/categories/%E9%A2%98%E7%9B%AE/"/>
-    
-    
-    <category term="Spring" scheme="http://example.com/tags/Spring/"/>
-    
-    <category term="题目" scheme="http://example.com/tags/%E9%A2%98%E7%9B%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Spring中单例Bean是线程安全的吗</title>
-    <link href="http://example.com/2021/12/13/2112/14.Spring%E4%B8%AD%E5%8D%95%E4%BE%8BBean%E6%98%AF%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8%E7%9A%84%E5%90%97/"/>
-    <id>http://example.com/2021/12/13/2112/14.Spring%E4%B8%AD%E5%8D%95%E4%BE%8BBean%E6%98%AF%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8%E7%9A%84%E5%90%97/</id>
-    <published>2021-12-13T01:03:53.301Z</published>
-    <updated>2021-12-13T01:03:53.301Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Spring中单例Bean是线程安全的吗"><a href="#Spring中单例Bean是线程安全的吗" class="headerlink" title="Spring中单例Bean是线程安全的吗"></a>Spring中单例Bean是线程安全的吗</h1><p>bean对象默认是单例的，框架没有对bean进行多线程封装，框架情况下，Bean对象有且只有一个</p><h2 id="有状态Bean-有数据存储功能"><a href="#有状态Bean-有数据存储功能" class="headerlink" title="有状态Bean(有数据存储功能)"></a>有状态Bean(有数据存储功能)</h2><p>如果Bean是有状态的，有些Bean对象能存储数据，就需要开发人员自己来保证线程安全，一般情况下不建议把bean设置成有状态的</p><p>最简单的解决方式是把Bean的作用域由singleton改成prototype(原型的)，这样每次请求bean对象都创建一个新的bean对象来保证线程安全</p><h2 id="无状态Bean-不会存储数据"><a href="#无状态Bean-不会存储数据" class="headerlink" title="无状态Bean(不会存储数据)"></a>无状态Bean(不会存储数据)</h2><p>我们的Controller，Service，Dao本身并不是线程安全的，只是调用里面的方法，而多线程调用一个实例方法，是在内存中<br>复制遍历，这是在自己的线程工作内存，是最安全的</p><p>因此我们不要在Bean中声明任何有状态的实例变量或类变量，如果必须要这么做，推荐使用ThreadLocal把变量变成线程私有，<br>每一个变量只归属于当前线程，他们之间彼此并不是共享的，避免在修改对象的时候，改的是同一个对象里面的数据值</p><p>如果bean的实例变量和类变量在多个线程里面共享，那么只能使用synchronized，lock，cas等线程同步方法,如果加了这些锁操作，<br>并不可少的使性能降低</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="Spring中事务的实现原理"><a href="#Spring中事务的实现原理" class="headerlink" title="Spring中事务的实现原理"></a>Spring中事务的实现原理</h1><p>在spring框架中，我们一般使用的都是声明式事务(只需要加@Transactional就能实现了），但是还有编程式事务（通过自己的代码实现）</p><p>其事务操作是AOP的核心体现，当一个方法添加了@Transactional注解之后，spring会基于这个类产生一个代理对象，<br>将这个对象作为bean，使用这个代理对象，先关闭自动提交，再执行具体业务逻辑，如果执行没有错误，就提交，如果<br>出现异常，就回滚操作，可以控制对哪些异常回滚</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;Spring中单例Bean是线程安全的吗&quot;&gt;&lt;a href=&quot;#Spring中单例Bean是线程安全的吗&quot; class=&quot;headerlink&quot; title=&quot;Spring中单例Bean是线程安全的吗&quot;&gt;&lt;/a&gt;Spring中单例Bean是线程安全的吗&lt;/h1&gt;&lt;</summary>
+    <summary type="html">&lt;h1 id=&quot;Spring中事务的实现原理&quot;&gt;&lt;a href=&quot;#Spring中事务的实现原理&quot; class=&quot;headerlink&quot; title=&quot;Spring中事务的实现原理&quot;&gt;&lt;/a&gt;Spring中事务的实现原理&lt;/h1&gt;&lt;p&gt;在spring框架中，我们一般使用的都是声明</summary>
       
     
     
