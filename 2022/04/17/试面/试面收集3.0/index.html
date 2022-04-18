@@ -1,0 +1,169 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>商城总结二 | 背后的原因令人暖心</title><meta name="keywords" content="面试"><meta name="author" content="QY"><meta name="copyright" content="QY"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="商品搜索为什么要使用es1.性能更高2.更擅长做多条件搜索 es概念cluster:es默认是集群的，之前互相备份node:节点，一般一个es进程就是一个节点shard:分片，物理概念，一个es通过hash算法，默认分成五片index:逻辑上的数据库，既可以被多个shard存放，也能放到多个node里面，index以分区的方式，在不同的node储存，实现大量数据的扩展replica:分片的副本，不">
+<meta property="og:type" content="article">
+<meta property="og:title" content="商城总结二">
+<meta property="og:url" content="http://example.com/2022/04/17/%E8%AF%95%E9%9D%A2/%E8%AF%95%E9%9D%A2%E6%94%B6%E9%9B%863.0/index.html">
+<meta property="og:site_name" content="背后的原因令人暖心">
+<meta property="og:description" content="商品搜索为什么要使用es1.性能更高2.更擅长做多条件搜索 es概念cluster:es默认是集群的，之前互相备份node:节点，一般一个es进程就是一个节点shard:分片，物理概念，一个es通过hash算法，默认分成五片index:逻辑上的数据库，既可以被多个shard存放，也能放到多个node里面，index以分区的方式，在不同的node储存，实现大量数据的扩展replica:分片的副本，不">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/20220418134631.png">
+<meta property="article:published_time" content="2022-04-17T07:44:38.000Z">
+<meta property="article:modified_time" content="2022-04-18T08:43:21.134Z">
+<meta property="article:author" content="QY">
+<meta property="article:tag" content="面试">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/20220418134631.png"><link rel="shortcut icon" href="/img/logo2.png"><link rel="canonical" href="http://example.com/2022/04/17/%E8%AF%95%E9%9D%A2/%E8%AF%95%E9%9D%A2%E6%94%B6%E9%9B%863.0/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '商城总结二',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-04-18 16:43:21'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="背后的原因令人暖心" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/1637624928438.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">69</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">23</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://aidn.jp/mikutap"><i class="fa-fw fas fa-link"></i><span> 划水</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/20220418134631.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">背后的原因令人暖心</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://aidn.jp/mikutap"><i class="fa-fw fas fa-link"></i><span> 划水</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">商城总结二</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-04-17T07:44:38.000Z" title="发表于 2022-04-17 15:44:38">2022-04-17</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-04-18T08:43:21.134Z" title="更新于 2022-04-18 16:43:21">2022-04-18</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="商城总结二"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="商品搜索"><a href="#商品搜索" class="headerlink" title="商品搜索"></a>商品搜索</h1><h2 id="为什么要使用es"><a href="#为什么要使用es" class="headerlink" title="为什么要使用es"></a>为什么要使用es</h2><p>1.性能更高<br>2.更擅长做多条件搜索</p>
+<h2 id="es概念"><a href="#es概念" class="headerlink" title="es概念"></a>es概念</h2><p>cluster:es默认是集群的，之前互相备份<br>node:节点，一般一个es进程就是一个节点<br>shard:分片，物理概念，一个es通过hash算法，默认分成五片<br>index:逻辑上的数据库，既可以被多个shard存放，也能放到多个node里面，index以分区的方式，在不同的node储存，实现大量数据的扩展<br>replica:分片的副本，不在同一条机器上，实现数据的冗余，分担查询请求，还能作为备份<br>type: rb7之前的概念，类似mysql 的 table，一个index对应一个type<br>document: 一行</p>
+<h2 id="根据业务建立数据结构"><a href="#根据业务建立数据结构" class="headerlink" title="根据业务建立数据结构"></a>根据业务建立数据结构</h2><p><strong>这时我们要思考三个问题：<br>1、哪些字段需要分词<br>a)例如：商品名称<br>2、我们用哪些字段进行过滤<br>a)平台属性值<br>b)分类Id<br>c)品牌、价格区间、热度<br>3、哪些字段我们需要通过搜索查询出来。<br>a)商品名称,价格,图片等。</strong></p>
+<p>根据以上制定出如下结构：mappings<br>Index：goods<br>type：skuInfo<br>document: properties - rows<br>field: id,price,title…<br>Es中index默认是true。<br>info= Type</p>
+<h2 id="怎么把大量的热门数据加载到es"><a href="#怎么把大量的热门数据加载到es" class="headerlink" title="怎么把大量的热门数据加载到es"></a>怎么把大量的热门数据加载到es</h2><p>优化方法：数据分段 + 多线程<br>1、10 万条数据为例，数据分成 10 份，每一份 10000 条；<br>2、每一份数据起一个线程，10 个线程，</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> Result <span class="title">putAllJobUserInfo</span><span class="params">()</span> <span class="keyword">throws</span> ExecutionException, InterruptedException </span>&#123;</span><br><span class="line">        <span class="keyword">long</span> l = System.currentTimeMillis();</span><br><span class="line">        threadExecutorService.runSubmit(() -&gt; <span class="keyword">this</span>.putEsUserInfo(<span class="number">1</span>, <span class="number">10000</span>));</span><br><span class="line">        threadExecutorService.runSubmit(() -&gt; <span class="keyword">this</span>.putEsUserInfo(<span class="number">2</span>, <span class="number">10000</span>));</span><br><span class="line">        threadExecutorService.runSubmit(() -&gt; <span class="keyword">this</span>.putEsUserInfo(<span class="number">3</span>, <span class="number">10000</span>));</span><br><span class="line">        threadExecutorService.runSubmit(() -&gt; <span class="keyword">this</span>.putEsUserInfo(<span class="number">4</span>, <span class="number">10000</span>));</span><br><span class="line">        threadExecutorService.runSubmit(() -&gt; <span class="keyword">this</span>.putEsUserInfo(<span class="number">5</span>, <span class="number">10000</span>));</span><br><span class="line">        threadExecutorService.runSubmit(() -&gt; <span class="keyword">this</span>.putEsUserInfo(<span class="number">6</span>, <span class="number">10000</span>));</span><br><span class="line">        threadExecutorService.runSubmit(() -&gt; <span class="keyword">this</span>.putEsUserInfo(<span class="number">7</span>, <span class="number">10000</span>));</span><br><span class="line">        threadExecutorService.runSubmit(() -&gt; <span class="keyword">this</span>.putEsUserInfo(<span class="number">8</span>, <span class="number">10000</span>));</span><br><span class="line">        threadExecutorService.runSubmit(() -&gt; <span class="keyword">this</span>.putEsUserInfo(<span class="number">9</span>, <span class="number">10000</span>));</span><br><span class="line">        threadExecutorService.runSubmit(() -&gt; <span class="keyword">this</span>.putEsUserInfo(<span class="number">10</span>, <span class="number">10000</span>));</span><br><span class="line">        threadExecutorService.runSubmit(() -&gt; <span class="keyword">this</span>.putEsUserInfo(<span class="number">11</span>, <span class="number">10000</span>));</span><br><span class="line">        threadExecutorService.runSubmit(() -&gt; <span class="keyword">this</span>.putEsUserInfo(<span class="number">12</span>, <span class="number">10000</span>));</span><br><span class="line">        <span class="keyword">long</span> l1 = System.currentTimeMillis();</span><br><span class="line">        System.out.println(l1 - l);</span><br><span class="line">        <span class="keyword">return</span> Result.ok();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> Result <span class="title">putEsUserInfo</span><span class="params">(Integer page, Integer limit)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> count = <span class="number">0</span>;</span><br><span class="line">        PageHelper.startPage(page, limit);</span><br><span class="line">        List&lt;Long&gt; ids = jobUserMapper.getUserIdList();</span><br><span class="line">        <span class="keyword">for</span> (Long id : ids) &#123;</span><br><span class="line">            saveEsJobUserInfo(id);</span><br><span class="line">            count++;</span><br><span class="line">            logger.info(<span class="string">&quot;线程#&quot;</span> + page + <span class="string">&quot;：已导入：[&quot;</span> + count + <span class="string">&quot;]条数据；用户id为&#123;&quot;</span> + id + <span class="string">&quot;&#125;&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        logger.info(<span class="string">&quot;&#123;全部完成 ==&gt;:&#125;线程# &quot;</span> + page + <span class="string">&quot; #全部完成，总数为&quot;</span> + count);</span><br><span class="line">        <span class="keyword">return</span> Result.ok(<span class="string">&quot;&#123;全部完成 ==&gt;:&#125;线程# &quot;</span> + page + <span class="string">&quot; #全部完成，总数为&quot;</span> + count);</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<h2 id="商品热度排名"><a href="#商品热度排名" class="headerlink" title="商品热度排名"></a>商品热度排名</h2><p>使用redis的zset自动排序热度值<br>使用了稀释的思想，只有热度值是100的整数倍，才更新es</p>
+<h2 id="es常见面试题"><a href="#es常见面试题" class="headerlink" title="es常见面试题"></a>es常见面试题</h2><h3 id="你们项目中保存了哪些es数据"><a href="#你们项目中保存了哪些es数据" class="headerlink" title="你们项目中保存了哪些es数据"></a>你们项目中保存了哪些es数据</h3><h3 id="es使用的功能"><a href="#es使用的功能" class="headerlink" title="es使用的功能"></a>es使用的功能</h3><p>商品上架的时候，将商品存储到es，下架的时候移除es<br>搜索的时候，将组合，聚合，排序查询，返回文档，提供给用户</p>
+<h3 id="什么是倒排索引"><a href="#什么是倒排索引" class="headerlink" title="什么是倒排索引"></a>什么是倒排索引</h3><p>正向索引是通过 key 找 value，反向索引则是通过 value 找 key。</p>
+<h3 id="es过滤条件有哪些"><a href="#es过滤条件有哪些" class="headerlink" title="es过滤条件有哪些"></a>es过滤条件有哪些</h3><p>分类信息、平台属性、品牌、价格区间、热度、评论数。。。。 </p>
+<h1 id="点单登陆模块"><a href="#点单登陆模块" class="headerlink" title="点单登陆模块"></a>点单登陆模块</h1><p>所有的请求都会通过nacos转发请求到网关<br>在网关统一进行认证<br>放行一些web网页请求<br>放行一些api接口异步请求</p>
+<p>1、用接收的用户名密码核对后台数据库<br>2、核对通过，生成token<br>3、将用户id加载到写入redis，redis的key为用户ip地址，value为token<br>4、登录成功返回token与用户名和昵称，将token与用户信息记录到cookie里面<br>5、重定向用户到之前的来源地址。</p>
+<h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><h3 id="用户在a浏览器登陆了，在b还需要登陆吗"><a href="#用户在a浏览器登陆了，在b还需要登陆吗" class="headerlink" title="用户在a浏览器登陆了，在b还需要登陆吗"></a>用户在a浏览器登陆了，在b还需要登陆吗</h3><p>肯定需要</p>
+<h3 id="用户登陆信息多久过期"><a href="#用户登陆信息多久过期" class="headerlink" title="用户登陆信息多久过期"></a>用户登陆信息多久过期</h3><p>一天，选了免登录，7天</p>
+<h3 id="如何防止cookie盗链"><a href="#如何防止cookie盗链" class="headerlink" title="如何防止cookie盗链"></a>如何防止cookie盗链</h3><p>记录token的ip地址</p>
+<h1 id="购物车模块"><a href="#购物车模块" class="headerlink" title="购物车模块"></a>购物车模块</h1><h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p>添加购物车<br>更新购物车<br>选中状态<br>删除购物车<br>合并购物车</p>
+<h2 id="未登录如何添加"><a href="#未登录如何添加" class="headerlink" title="未登录如何添加"></a>未登录如何添加</h2><p>将商品数据保存到cookie中</p>
+<p>生成临时id(保存到redis，设置过期时间)，放到cookie，登陆后拿到用户id和临时id，合并</p>
+<h2 id="勾选状态"><a href="#勾选状态" class="headerlink" title="勾选状态"></a>勾选状态</h2><p>保存到redis，不同步到数据库,提交订单的时候再同步到数据库</p>
+<h2 id="pc和手机客户端购物车数据一样吗"><a href="#pc和手机客户端购物车数据一样吗" class="headerlink" title="pc和手机客户端购物车数据一样吗"></a>pc和手机客户端购物车数据一样吗</h2><p>未登录不一样，登陆一样</p>
+<h2 id="添加购物车减库存吗？"><a href="#添加购物车减库存吗？" class="headerlink" title="添加购物车减库存吗？"></a>添加购物车减库存吗？</h2><p>添加购物车 不减库存，可以验库存</p>
+<h2 id="进入购物车列表的时候-验库存吗？验价格吗？"><a href="#进入购物车列表的时候-验库存吗？验价格吗？" class="headerlink" title="进入购物车列表的时候 验库存吗？验价格吗？"></a>进入购物车列表的时候 验库存吗？验价格吗？</h2><p>验库存 验价格  做数据的替换</p>
+<h2 id="购物车里的商品价格变换了有提示吗？库存无货了有提示吗？"><a href="#购物车里的商品价格变换了有提示吗？库存无货了有提示吗？" class="headerlink" title="购物车里的商品价格变换了有提示吗？库存无货了有提示吗？"></a>购物车里的商品价格变换了有提示吗？库存无货了有提示吗？</h2><p>有的，商品价格和库存是实时的</p>
+</article><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E9%9D%A2%E8%AF%95/">面试</a></div><div class="post_share"><div class="social-share" data-image="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/20220418134631.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/04/16/%E8%AF%95%E9%9D%A2/%E8%AF%95%E9%9D%A2%E6%94%B6%E9%9B%862.0/"><img class="next-cover" src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/20220418094821.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">商城总结一</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2022/04/16/%E8%AF%95%E9%9D%A2/%E8%AF%95%E9%9D%A2%E6%94%B6%E9%9B%861.0/" title="商城总结0"><img class="cover" src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/20220416144827.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-04-16</div><div class="title">商城总结0</div></div></a></div><div><a href="/2022/04/16/%E8%AF%95%E9%9D%A2/%E8%AF%95%E9%9D%A2%E6%94%B6%E9%9B%862.0/" title="商城总结一"><img class="cover" src="https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/20220418094821.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-04-16</div><div class="title">商城总结一</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%95%86%E5%93%81%E6%90%9C%E7%B4%A2"><span class="toc-number">1.</span> <span class="toc-text">商品搜索</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8es"><span class="toc-number">1.1.</span> <span class="toc-text">为什么要使用es</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#es%E6%A6%82%E5%BF%B5"><span class="toc-number">1.2.</span> <span class="toc-text">es概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%B9%E6%8D%AE%E4%B8%9A%E5%8A%A1%E5%BB%BA%E7%AB%8B%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84"><span class="toc-number">1.3.</span> <span class="toc-text">根据业务建立数据结构</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%8E%E4%B9%88%E6%8A%8A%E5%A4%A7%E9%87%8F%E7%9A%84%E7%83%AD%E9%97%A8%E6%95%B0%E6%8D%AE%E5%8A%A0%E8%BD%BD%E5%88%B0es"><span class="toc-number">1.4.</span> <span class="toc-text">怎么把大量的热门数据加载到es</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%95%86%E5%93%81%E7%83%AD%E5%BA%A6%E6%8E%92%E5%90%8D"><span class="toc-number">1.5.</span> <span class="toc-text">商品热度排名</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#es%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98"><span class="toc-number">1.6.</span> <span class="toc-text">es常见面试题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%A0%E4%BB%AC%E9%A1%B9%E7%9B%AE%E4%B8%AD%E4%BF%9D%E5%AD%98%E4%BA%86%E5%93%AA%E4%BA%9Bes%E6%95%B0%E6%8D%AE"><span class="toc-number">1.6.1.</span> <span class="toc-text">你们项目中保存了哪些es数据</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#es%E4%BD%BF%E7%94%A8%E7%9A%84%E5%8A%9F%E8%83%BD"><span class="toc-number">1.6.2.</span> <span class="toc-text">es使用的功能</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E5%80%92%E6%8E%92%E7%B4%A2%E5%BC%95"><span class="toc-number">1.6.3.</span> <span class="toc-text">什么是倒排索引</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#es%E8%BF%87%E6%BB%A4%E6%9D%A1%E4%BB%B6%E6%9C%89%E5%93%AA%E4%BA%9B"><span class="toc-number">1.6.4.</span> <span class="toc-text">es过滤条件有哪些</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%82%B9%E5%8D%95%E7%99%BB%E9%99%86%E6%A8%A1%E5%9D%97"><span class="toc-number">2.</span> <span class="toc-text">点单登陆模块</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98"><span class="toc-number">2.1.</span> <span class="toc-text">常见问题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%94%A8%E6%88%B7%E5%9C%A8a%E6%B5%8F%E8%A7%88%E5%99%A8%E7%99%BB%E9%99%86%E4%BA%86%EF%BC%8C%E5%9C%A8b%E8%BF%98%E9%9C%80%E8%A6%81%E7%99%BB%E9%99%86%E5%90%97"><span class="toc-number">2.1.1.</span> <span class="toc-text">用户在a浏览器登陆了，在b还需要登陆吗</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%94%A8%E6%88%B7%E7%99%BB%E9%99%86%E4%BF%A1%E6%81%AF%E5%A4%9A%E4%B9%85%E8%BF%87%E6%9C%9F"><span class="toc-number">2.1.2.</span> <span class="toc-text">用户登陆信息多久过期</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E9%98%B2%E6%AD%A2cookie%E7%9B%97%E9%93%BE"><span class="toc-number">2.1.3.</span> <span class="toc-text">如何防止cookie盗链</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%B4%AD%E7%89%A9%E8%BD%A6%E6%A8%A1%E5%9D%97"><span class="toc-number">3.</span> <span class="toc-text">购物车模块</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8A%9F%E8%83%BD"><span class="toc-number">3.1.</span> <span class="toc-text">功能</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%AA%E7%99%BB%E5%BD%95%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0"><span class="toc-number">3.2.</span> <span class="toc-text">未登录如何添加</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8B%BE%E9%80%89%E7%8A%B6%E6%80%81"><span class="toc-number">3.3.</span> <span class="toc-text">勾选状态</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#pc%E5%92%8C%E6%89%8B%E6%9C%BA%E5%AE%A2%E6%88%B7%E7%AB%AF%E8%B4%AD%E7%89%A9%E8%BD%A6%E6%95%B0%E6%8D%AE%E4%B8%80%E6%A0%B7%E5%90%97"><span class="toc-number">3.4.</span> <span class="toc-text">pc和手机客户端购物车数据一样吗</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B7%BB%E5%8A%A0%E8%B4%AD%E7%89%A9%E8%BD%A6%E5%87%8F%E5%BA%93%E5%AD%98%E5%90%97%EF%BC%9F"><span class="toc-number">3.5.</span> <span class="toc-text">添加购物车减库存吗？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%9B%E5%85%A5%E8%B4%AD%E7%89%A9%E8%BD%A6%E5%88%97%E8%A1%A8%E7%9A%84%E6%97%B6%E5%80%99-%E9%AA%8C%E5%BA%93%E5%AD%98%E5%90%97%EF%BC%9F%E9%AA%8C%E4%BB%B7%E6%A0%BC%E5%90%97%EF%BC%9F"><span class="toc-number">3.6.</span> <span class="toc-text">进入购物车列表的时候 验库存吗？验价格吗？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B4%AD%E7%89%A9%E8%BD%A6%E9%87%8C%E7%9A%84%E5%95%86%E5%93%81%E4%BB%B7%E6%A0%BC%E5%8F%98%E6%8D%A2%E4%BA%86%E6%9C%89%E6%8F%90%E7%A4%BA%E5%90%97%EF%BC%9F%E5%BA%93%E5%AD%98%E6%97%A0%E8%B4%A7%E4%BA%86%E6%9C%89%E6%8F%90%E7%A4%BA%E5%90%97%EF%BC%9F"><span class="toc-number">3.7.</span> <span class="toc-text">购物车里的商品价格变换了有提示吗？库存无货了有提示吗？</span></a></li></ol></li></ol></div></div></div></div></main><footer id="footer" style="background-image: url('https://cdn.jsdelivr.net/gh/woqiuyang/pic1/img/20220418134631.png')"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By QY</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><div class="js-pjax"></div><script defer="defer" id="fluttering_ribbon" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
