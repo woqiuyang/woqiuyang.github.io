@@ -21,3 +21,6 @@ mvn -U idea:idea
 # maven红色波浪线
 通过上面的命令jar包已经导入了成功也不能消除（reimport也不行，不过可以正常使用），可以先将带红色波浪线的依赖剪切掉，reimport一下，再将依赖粘贴回去，完美解决。
 
+
+# maven查找网站
+https://mvn.coderead.cn/
