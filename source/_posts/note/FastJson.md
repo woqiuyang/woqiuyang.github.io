@@ -3,7 +3,7 @@ title: FastJson
 date: 2020-5-20 23:28:06
 cover: https://blog-1258707945.cos.ap-guangzhou.myqcloud.com//blog/20220523232857.png
 tags:
-- 组件
+- note
 ---
 # 什么是json
 **json是数据交换语言**
